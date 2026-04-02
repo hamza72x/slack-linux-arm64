@@ -4,6 +4,8 @@ Slack doesn't ship a Linux arm64 package. This repo repacks the official x86_64 
 
 Built entirely by Claude Opus 4.6.
 
+![Slack running on Linux arm64](screenshot.png)
+
 ## Quick start
 
 **Standalone (no install):**
