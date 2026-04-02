@@ -1,0 +1,279 @@
+{
+    "24088086": {
+        "translation": "Copy installation ID"
+    },
+    "79648571": {
+        "translation": "Exit Full Screen"
+    },
+    "83757596": {
+        "translation": "Add to Dictionary"
+    },
+    "213310159": {
+        "translation": "&Clear Cache and Restart"
+    },
+    "228491096": {
+        "translation": "Close Window"
+    },
+    "233958381": {
+        "translation": "Keyboard navigation"
+    },
+    "248376214": {
+        "translation": "&Launch control"
+    },
+    "290920624": {
+        "translation": "Inspect Element"
+    },
+    "324526129": {
+        "translation": "Use local assets"
+    },
+    "335279362": {
+        "translation": "Speech"
+    },
+    "463854602": {
+        "translation": "Restart and collect net logs..."
+    },
+    "479719096": {
+        "translation": "Next section"
+    },
+    "492578761": {
+        "translation": "Conversation"
+    },
+    "508265312": {
+        "translation": "Toggle &DevTools"
+    },
+    "614784485": {
+        "translation": "Copy Email Address"
+    },
+    "642307007": {
+        "translation": "&Forward"
+    },
+    "653789695": {
+        "translation": "Restart Slack"
+    },
+    "786084958": {
+        "translation": "&Clear Cache and Exit"
+    },
+    "853060286": {
+        "translation": "Minimise"
+    },
+    "898224708": {
+        "translation": "&Developer"
+    },
+    "1214870726": {
+        "translation": "Always Show &Menu Bar"
+    },
+    "1262042250": {
+        "translation": "H&istory"
+    },
+    "1302783429": {
+        "translation": "Copy Link"
+    },
+    "1343450128": {
+        "translation": "Open Link"
+    },
+    "1344684856": {
+        "translation": "Clear cache and exit"
+    },
+    "1393286243": {
+        "translation": "Toggle &Full Screen"
+    },
+    "1448793429": {
+        "translation": "Zoom &Out"
+    },
+    "1450597088": {
+        "translation": "Paste and Match Style"
+    },
+    "1479779558": {
+        "translation": "Disable hardware acceleration and restart"
+    },
+    "1496618861": {
+        "translation": "&Actual Size"
+    },
+    "1541986699": {
+        "translation": "Show Slack &immediately"
+    },
+    "1685078332": {
+        "translation": "Restart and collect verbose debug logs…"
+    },
+    "1687268692": {
+        "translation": "Keep in &background"
+    },
+    "1728916720": {
+        "translation": "Copy Image"
+    },
+    "1871709694": {
+        "translation": "Show All"
+    },
+    "1948703567": {
+        "translation": "Restart to Apply Update"
+    },
+    "2005111589": {
+        "translation": "&Quit Slack"
+    },
+    "2023105981": {
+        "translation": "&Sign in to Another Workspace..."
+    },
+    "2027485457": {
+        "translation": "&Check for Updates…"
+    },
+    "2120422130": {
+        "translation": "&Preferences"
+    },
+    "2147522478": {
+        "translation": "Go"
+    },
+    "2147551778": {
+        "translation": "Cut"
+    },
+    "2149589909": {
+        "translation": "Copy"
+    },
+    "2150026782": {
+        "translation": "Redo"
+    },
+    "2150124804": {
+        "translation": "Undo"
+    },
+    "2150275059": {
+        "translation": "Zoom"
+    },
+    "2184640045": {
+        "translation": "&Back"
+    },
+    "2184732496": {
+        "translation": "&Edit"
+    },
+    "2184767170": {
+        "translation": "&File"
+    },
+    "2184822919": {
+        "translation": "&Help"
+    },
+    "2185106325": {
+        "translation": "&Quit"
+    },
+    "2185243627": {
+        "translation": "&View"
+    },
+    "2208352209": {
+        "translation": "Bring All to Front"
+    },
+    "2212687320": {
+        "translation": "Close"
+    },
+    "2224369267": {
+        "translation": "Paste"
+    },
+    "2447182367": {
+        "translation": "Copy Image URL"
+    },
+    "2472486620": {
+        "translation": "Enable main process inspector"
+    },
+    "2483404925": {
+        "translation": "Select All"
+    },
+    "2545826024": {
+        "translation": "Reset &App Data…"
+    },
+    "2684062346": {
+        "translation": "What’s &New…"
+    },
+    "2684966484": {
+        "translation": "Open Settings Editor"
+    },
+    "2737665025": {
+        "translation": "Hide Others"
+    },
+    "2779400347": {
+        "translation": "Search with Google"
+    },
+    "3001254706": {
+        "translation": "Hide Slack"
+    },
+    "3065272838": {
+        "translation": "Checking for Update"
+    },
+    "3094776382": {
+        "translation": "Zoom &In"
+    },
+    "3096388533": {
+        "translation": "Show tracing UI"
+    },
+    "3096707126": {
+        "translation": "Show &Logs in File Manager"
+    },
+    "3192269939": {
+        "translation": "&Report Issue…"
+    },
+    "3303131406": {
+        "translation": "Start speaking"
+    },
+    "3379982589": {
+        "translation": "About Slack"
+    },
+    "3446734126": {
+        "translation": "Stop speaking"
+    },
+    "3496838401": {
+        "translation": "Enable hardware acceleration and restart"
+    },
+    "3591337086": {
+        "translation": "Services"
+    },
+    "3603967375": {
+        "translation": "Downloading Update"
+    },
+    "3615595735": {
+        "translation": "An update is available"
+    },
+    "3662858940": {
+        "translation": "Previous section"
+    },
+    "3688565260": {
+        "translation": "Show &Logs in Explorer"
+    },
+    "3748068388": {
+        "translation": "Open &Help Centre"
+    },
+    "3791924890": {
+        "translation": "&Keyboard Shortcuts"
+    },
+    "3826983308": {
+        "translation": "Look Up “{word}“",
+        "notes": "Do not translate between {}"
+    },
+    "3916290703": {
+        "translation": "&Launch on login"
+    },
+    "3932018612": {
+        "translation": "Show main window"
+    },
+    "3957078367": {
+        "translation": "&Reload"
+    },
+    "4085024050": {
+        "translation": "Force reload "
+    },
+    "4090050867": {
+        "translation": "Show &Logs in Finder"
+    },
+    "4103967670": {
+        "translation": "&Window"
+    },
+    "4158251775": {
+        "translation": "Trigger crash"
+    },
+    "4168076436": {
+        "translation": "Release notes"
+    },
+    "4172720698": {
+        "translation": "Troubleshooting"
+    },
+    "4190859723": {
+        "translation": "Delete"
+    },
+    "4226626769": {
+        "translation": "Open crash dumps directory..."
+    }
+}

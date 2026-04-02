@@ -1,0 +1,279 @@
+{
+    "24088086": {
+        "translation": "Copier l'identifiant d'installation"
+    },
+    "79648571": {
+        "translation": "Quitter le plein écran"
+    },
+    "83757596": {
+        "translation": "Ajouter au dictionnaire"
+    },
+    "213310159": {
+        "translation": "Effacer le cache et redémarrer"
+    },
+    "228491096": {
+        "translation": "Fermer la fenêtre"
+    },
+    "233958381": {
+        "translation": "Navigation au clavier"
+    },
+    "248376214": {
+        "translation": "Contrôler le lancement"
+    },
+    "290920624": {
+        "translation": "Inspecter l'élément"
+    },
+    "324526129": {
+        "translation": "Utiliser les actifs locaux"
+    },
+    "335279362": {
+        "translation": "Parole"
+    },
+    "463854602": {
+        "translation": "Redémarrer et collecter les journaux réseau..."
+    },
+    "479719096": {
+        "translation": "Section suivante"
+    },
+    "492578761": {
+        "translation": "Conversation"
+    },
+    "508265312": {
+        "translation": "Activer les &outils pour les développeurs"
+    },
+    "614784485": {
+        "translation": "Copier l'adresse e-mail"
+    },
+    "642307007": {
+        "translation": "Transférer"
+    },
+    "653789695": {
+        "translation": "Redémarrer Slack"
+    },
+    "786084958": {
+        "translation": "&Effacer le cache et quitter"
+    },
+    "853060286": {
+        "translation": "Placer dans le dock"
+    },
+    "898224708": {
+        "translation": "Développeur"
+    },
+    "1214870726": {
+        "translation": "Toujours montrer la barre de menus"
+    },
+    "1262042250": {
+        "translation": "H&istorique"
+    },
+    "1302783429": {
+        "translation": "Copier le lien"
+    },
+    "1343450128": {
+        "translation": "Ouvrir le lien"
+    },
+    "1344684856": {
+        "translation": "Effacer le cache et quitter l’application"
+    },
+    "1393286243": {
+        "translation": "Plein écran"
+    },
+    "1448793429": {
+        "translation": "&Réduire"
+    },
+    "1450597088": {
+        "translation": "Coller et adapter le style"
+    },
+    "1479779558": {
+        "translation": "Désactiver l’accélération matérielle et redémarrer"
+    },
+    "1496618861": {
+        "translation": "Taille réelle"
+    },
+    "1541986699": {
+        "translation": "Afficher Slack immédiatement"
+    },
+    "1685078332": {
+        "translation": "Redémarrer et collecter les journaux de débogage Verbose…"
+    },
+    "1687268692": {
+        "translation": "Garder en arrière-plan"
+    },
+    "1728916720": {
+        "translation": "Copier l'image"
+    },
+    "1871709694": {
+        "translation": "Tout afficher"
+    },
+    "1948703567": {
+        "translation": "Redémarrer pour appliquer la mise à jour"
+    },
+    "2005111589": {
+        "translation": "&Quitter Slack"
+    },
+    "2023105981": {
+        "translation": "&Se connecter à un autre espace de travail..."
+    },
+    "2027485457": {
+        "translation": "&Vérifier les mises à jour..."
+    },
+    "2120422130": {
+        "translation": "&Préférences..."
+    },
+    "2147522478": {
+        "translation": "&Aller"
+    },
+    "2147551778": {
+        "translation": "Couper"
+    },
+    "2149589909": {
+        "translation": "Copier"
+    },
+    "2150026782": {
+        "translation": "Rétablir"
+    },
+    "2150124804": {
+        "translation": "Annuler"
+    },
+    "2150275059": {
+        "translation": "Agrandir\/réduire"
+    },
+    "2184640045": {
+        "translation": "Retour"
+    },
+    "2184732496": {
+        "translation": "&Modifier"
+    },
+    "2184767170": {
+        "translation": "Fichier"
+    },
+    "2184822919": {
+        "translation": "&Aide"
+    },
+    "2185106325": {
+        "translation": "Quitter"
+    },
+    "2185243627": {
+        "translation": "&Présentation"
+    },
+    "2208352209": {
+        "translation": "Tout ramener au premier plan"
+    },
+    "2212687320": {
+        "translation": "Fermer"
+    },
+    "2224369267": {
+        "translation": "Coller"
+    },
+    "2447182367": {
+        "translation": "Copier l'URL de l'image"
+    },
+    "2472486620": {
+        "translation": "Activer l’inspecteur de processus principal"
+    },
+    "2483404925": {
+        "translation": "Tout sélectionner"
+    },
+    "2545826024": {
+        "translation": "Réinitialiser &les données de l’application..."
+    },
+    "2684062346": {
+        "translation": "&Nouveautés..."
+    },
+    "2684966484": {
+        "translation": "Ouvrir l’éditeur de paramètres"
+    },
+    "2737665025": {
+        "translation": "Masquer Autres"
+    },
+    "2779400347": {
+        "translation": "Rechercher avec Google"
+    },
+    "3001254706": {
+        "translation": "Masquer Slack"
+    },
+    "3065272838": {
+        "translation": "Vérification des mises à jour..."
+    },
+    "3094776382": {
+        "translation": "&Agrandir"
+    },
+    "3096388533": {
+        "translation": "Afficher le traçage de l’interface utilisateur"
+    },
+    "3096707126": {
+        "translation": "Afficher &les journaux dans le Gestionnaire des fichiers"
+    },
+    "3192269939": {
+        "translation": "&Signaler un problème..."
+    },
+    "3303131406": {
+        "translation": "Commencer à parler"
+    },
+    "3379982589": {
+        "translation": "À propos de Slack"
+    },
+    "3446734126": {
+        "translation": "Arrêter de parler"
+    },
+    "3496838401": {
+        "translation": "Activer l’accélération matérielle et redémarrer"
+    },
+    "3591337086": {
+        "translation": "Services"
+    },
+    "3603967375": {
+        "translation": "Téléchargement de la mise à jour..."
+    },
+    "3615595735": {
+        "translation": "Une mise à jour est disponible"
+    },
+    "3662858940": {
+        "translation": "Section précédente"
+    },
+    "3688565260": {
+        "translation": "Afficher &les journaux dans Explorer"
+    },
+    "3748068388": {
+        "translation": "Ouvrir le centre d'assistance"
+    },
+    "3791924890": {
+        "translation": "Raccourcis clavier"
+    },
+    "3826983308": {
+        "translation": "Rechercher « {word} »",
+        "notes": "Do not translate between {}"
+    },
+    "3916290703": {
+        "translation": "Lancer à la connexion"
+    },
+    "3932018612": {
+        "translation": "Afficher la fenêtre principale"
+    },
+    "3957078367": {
+        "translation": "Recharger"
+    },
+    "4085024050": {
+        "translation": "Forcer à recharger "
+    },
+    "4090050867": {
+        "translation": "Afficher &les journaux dans le Finder"
+    },
+    "4103967670": {
+        "translation": "Fenêtre"
+    },
+    "4158251775": {
+        "translation": "Déclencher la panne"
+    },
+    "4168076436": {
+        "translation": "Notes de mise à jour"
+    },
+    "4172720698": {
+        "translation": "Résolution des problèmes"
+    },
+    "4190859723": {
+        "translation": "Supprimer"
+    },
+    "4226626769": {
+        "translation": "Ouvrir le répertoire des pannes..."
+    }
+}

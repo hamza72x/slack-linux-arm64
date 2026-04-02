@@ -1,0 +1,144 @@
+{
+    "4945462": {
+        "translation": "Voulez-vous déplacer Slack vers le dossier Applications ?"
+    },
+    "34630045": {
+        "translation": "On dirait que Slack s’exécute depuis le fichier d’installation. Pour qu’il fonctionne correctement, nous pouvons le déplacer vers votre répertoire d’applications."
+    },
+    "46843414": {
+        "translation": "« Vous vous apprêtez à partager le fichier “{fileName}” avec d’autres personnes dans le canal “{channelId}”. Souhaitez-vous continuer ? »"
+    },
+    "136710364": {
+        "translation": "Cela peut provenir d’une connexion lente. Nous pouvons attendre, recharger, ou redémarrer pour le relancer. Si cela ne fonctionne pas, veuillez contacter l’assistance."
+    },
+    "212721705": {
+        "translation": "Ne plus me le demander"
+    },
+    "296709561": {
+        "translation": "Recharger"
+    },
+    "468287136": {
+        "translation": "Confirmer"
+    },
+    "563969361": {
+        "translation": "Vous possédez la dernière version de Slack, merci pour votre fidélité."
+    },
+    "653789695": {
+        "translation": "Redémarrer Slack"
+    },
+    "867210976": {
+        "translation": "Réinitialiser Slack ?"
+    },
+    "915428966": {
+        "translation": "Slack ne répond plus.\n\nNous pouvons le relancer pour tenter une récupération. Si cela ne fonctionne pas, veuillez contacter l’assistance."
+    },
+    "987847184": {
+        "translation": "Slack ne répond plus"
+    },
+    "1114262255": {
+        "translation": "Tout est prêt"
+    },
+    "1294172317": {
+        "translation": "Êtes-vous sûr(e) ?"
+    },
+    "1332677186": {
+        "translation": "Slack ne peut pas ouvrir ce type de fichier."
+    },
+    "1343271314": {
+        "translation": "Ouvrir le fichier"
+    },
+    "1360240177": {
+        "translation": "​Pour lancer l’enregistrement d’un journal réseau, Slack doit être redémarré. Cliquez sur Bien compris et relancez Slack."
+    },
+    "1522592627": {
+        "translation": "Malheureusement, il semble que Slack ne dispose pas des autorisations requises pour effectuer la mise à jour."
+    },
+    "1567656214": {
+        "translation": "Ceci aura pour effet de vous déconnecter de tous vos espaces de travail, de restaurer l'application vers son état d'origine et de redémarrer."
+    },
+    "1588876707": {
+        "translation": "Si le problème persiste, vous pouvez nous signaler le problème ou simplement nous contacter à l'adresse feedback@slack.com"
+    },
+    "1612182706": {
+        "translation": "Veuillez patienter"
+    },
+    "1649803857": {
+        "translation": "Impossible de mettre à jour Slack"
+    },
+    "1704747187": {
+        "translation": "Vérifiez votre connexion Internet. Si le problème persiste, contactez notre service d'assistance."
+    },
+    "1793743312": {
+        "translation": "Il s’agit d’un fichier {fileExt} qui va s’ouvrir dans {appName}. Assurez-vous qu’il s’agit d’un fichier de confiance avant de l’ouvrir."
+    },
+    "1954625384": {
+        "translation": "Redémarrer et collecter les journaux réseau ?"
+    },
+    "2171447151": {
+        "translation": "Ce fichier n’existe plus."
+    },
+    "2227449712": {
+        "translation": "Slack"
+    },
+    "2336911271": {
+        "translation": "Le journal réseau enregistré sera inclus avec les autres fichiers journaux lors de l’exportation."
+    },
+    "2465692716": {
+        "translation": "&Ouvrir le fichier"
+    },
+    "2810434478": {
+        "translation": "Slack va bientôt demander l’autorisation d’effectuer la mise à jour. Vous devez utiliser un compte d’administrateur pour approuver la demande."
+    },
+    "2896655900": {
+        "translation": "Redémarrer et signaler le problème",
+        "notes": "double ampersand is for windows platform. if translated string does not need ampersand can ignore it."
+    },
+    "3031263097": {
+        "translation": "Garder Slack à jour"
+    },
+    "3166615289": {
+        "translation": "Ne plus afficher"
+    },
+    "3173305630": {
+        "translation": "Le chargement de Slack rencontre des difficultés"
+    },
+    "3371422740": {
+        "translation": "Ceci aura pour effet de vous déconnecter de tous vos espaces de travail, de restaurer l’application vers son état d’origine et de quitter."
+    },
+    "3389709572": {
+        "translation": "Redémarrer Slack maintenant pour enregistrer un journal réseau ?"
+    },
+    "3410109026": {
+        "translation": "Un fichier de journal sera enregistré dans l’emplacement de téléchargement de Slack. Voulez-vous continuer ?"
+    },
+    "3436506706": {
+        "translation": "Il s’agit d’un fichier {fileExt} qui s’ouvrira dans une autre application. Assurez-vous qu’il s’agit d’un fichier de confiance avant de l’ouvrir."
+    },
+    "3470779642": {
+        "translation": "Nous pouvons le relancer pour tenter une récupération. Si cela ne fonctionne pas, veuillez contacter l’assistance."
+    },
+    "3500533755": {
+        "translation": "​​Veuillez quitter Slack et redémarrer."
+    },
+    "3523995200": {
+        "translation": "&Annuler"
+    },
+    "3526497016": {
+        "translation": "Redémarrer et signaler le problème"
+    },
+    "3549285835": {
+        "translation": "Le chargement de Slack rencontre des difficultés. Cela peut provenir d’une connexion lente. Nous pouvons attendre, recharger, ou redémarrer pour le relancer. Si cela ne fonctionne pas, veuillez contacter l’assistance."
+    },
+    "3695522217": {
+        "translation": "Toujours ouvrir les fichiers {fileExt}."
+    },
+    "3805691147": {
+        "translation": "Slack a planté !"
+    },
+    "3940220280": {
+        "translation": "Nous sommes vraiment désolés, mais nous rencontrons des difficultés et Slack doit être redémarré."
+    },
+    "4106677555": {
+        "translation": "Effacer le cache et relancer"
+    }
+}

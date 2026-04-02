@@ -1,0 +1,16 @@
+#!/usr/bin/sh
+
+# If using normal root, avoid changing anything.
+if [ -z "$RPM_BUILD_ROOT" ] || [ "$RPM_BUILD_ROOT" = "/" ]; then
+  exit 0
+fi
+
+# Check and remove symlinks first then regular files
+for FILETYPE in l f
+do
+
+  find "$RPM_BUILD_ROOT" -type $FILETYPE -name '*.la' 2>/dev/null -print0 |
+    xargs -0 grep --fixed-strings '.la - a libtool library file' --files-with-matches --null |
+    xargs -0 rm --force
+
+done

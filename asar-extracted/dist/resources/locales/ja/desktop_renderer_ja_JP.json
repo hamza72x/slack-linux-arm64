@@ -1,0 +1,98 @@
+{
+    "184693378": {
+        "translation": "これは {hostname} への {protocol} リンクです。これで正しければ、クリックしてください。そうでなければ、このリンクが信用できるものであることを確認してください。"
+    },
+    "228491096": {
+        "translation": "ウィンドウを閉じる"
+    },
+    "254104530": {
+        "translation": "ロード中…"
+    },
+    "412256135": {
+        "translation": "通知と承認"
+    },
+    "470219197": {
+        "translation": "コピーしました！"
+    },
+    "599843802": {
+        "translation": "ログは<strong>ダウンロード<\/strong>フォルダに保存されました。",
+        "notes": "Please use <strong> and <\/strong> to denote bolded text (do not translate those directives)."
+    },
+    "676736683": {
+        "translation": "それでも Slack に接続できない場合は、<a id=1>ログをダウンロード<\/a>して<a id=2>サポートチーム<\/a>に送信してください。"
+    },
+    "1232096808": {
+        "translation": "Slackに接続するには、サーバーのユーザー名とパスワードを入力する必要があります。 "
+    },
+    "2149550608": {
+        "translation": "ベータ版"
+    },
+    "2149589909": {
+        "translation": "コピー"
+    },
+    "2150053277": {
+        "translation": "保存する"
+    },
+    "2179150998": {
+        "translation": "GovSlack が無効になったため、今後 GovSlack ワークスペースにはサインインできません。"
+    },
+    "2226335023": {
+        "translation": "リセット"
+    },
+    "2265579820": {
+        "translation": "アプリのリンクを開く"
+    },
+    "2358485522": {
+        "translation": "その他にも試してみてください :"
+    },
+    "2362253683": {
+        "translation": "ログの進行中です。",
+        "notes": "Net log in progress."
+    },
+    "2380539398": {
+        "translation": "Slack を再起動してみてください。この方法でもキャッシュがクリアされます。"
+    },
+    "2782703473": {
+        "translation": "GovSlack が有効になったため、GovSlack ワークスペースにサインインできるようになりました。"
+    },
+    "2805203296": {
+        "translation": "常に {hostname} への {protocol} リンクを開く"
+    },
+    "2875270439": {
+        "translation": "Slackに接続するには、プロキシのユーザー名とパスワードを入力する必要があります。 "
+    },
+    "2918950471": {
+        "translation": "ログをダウンロードする"
+    },
+    "2944450756": {
+        "translation": "Windows ストア"
+    },
+    "2962926561": {
+        "translation": "製品リリース版を使用しています。通常プログラムに戻ります…"
+    },
+    "3016177985": {
+        "translation": "ロギングを停止",
+        "notes": "Button text for stopping net log."
+    },
+    "3363816917": {
+        "translation": "常に {protocolName} からのリンクを開く"
+    },
+    "3574460890": {
+        "translation": "{protocol} リンクを開く"
+    },
+    "3671115087": {
+        "translation": "このリンクはウェブサイトではなく、アプリを開きます。これで正しければ、クリックしてください。そうでなければ、このリンクが信用できるものであることを確認してください。"
+    },
+    "3731817853": {
+        "translation": "Slack に接続できません"
+    },
+    "4160805346": {
+        "translation": "App Store"
+    },
+    "4210748714": {
+        "translation": "ご使用のネットワーク設定または<a id=1>セキュリティソフトウェア<\/a>で、Slack へのアクセスが許可されていることを確認してください。"
+    },
+    "4279321952": {
+        "translation": "{releaseChannel} に追加されました！🎉 利用可能になった {releaseChannel} アップデートがアプリに送られれてきます。"
+    }
+}

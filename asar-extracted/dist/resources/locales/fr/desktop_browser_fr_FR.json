@@ -1,0 +1,35 @@
+{
+    "850658910": {
+        "translation": "Aucun message non lu"
+    },
+    "1449357124": {
+        "translation": "Vous avez {unreadHighlights,plural,=1{# notification}other{# notifications}}"
+    },
+    "1809627791": {
+        "translation": "Slack est configuré pour rester en exécution dans la zone de notification. Pour modifier ce paramètre, accédez à Préférences > Avancé."
+    },
+    "2227449712": {
+        "translation": "Slack"
+    },
+    "2691950950": {
+        "translation": "Vous avez des messages non lus."
+    },
+    "2817997211": {
+        "translation": "Slack est configuré pour se mettre en surbrillance quand vous recevez des notifications. Pour modifier ce paramètre, accédez à Préférences > Notifications."
+    },
+    "3250983946": {
+        "translation": "Éditeur de paramètres"
+    },
+    "3379982589": {
+        "translation": "À propos de Slack"
+    },
+    "4013057354": {
+        "translation": "Sélectionnez un emplacement de téléchargement"
+    },
+    "4108900219": {
+        "translation": "Slack | Journal réseau"
+    },
+    "4163153666": {
+        "translation": "Pourquoi l’application Slack ne s’est-elle pas fermée ?"
+    }
+}

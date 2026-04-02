@@ -1,0 +1,1 @@
+cmd_Release/keymapping.node := ln -f "Release/obj.target/keymapping.node" "Release/keymapping.node" 2>/dev/null || (rm -rf "Release/keymapping.node" && cp -af "Release/obj.target/keymapping.node" "Release/keymapping.node")

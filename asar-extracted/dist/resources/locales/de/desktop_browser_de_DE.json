@@ -1,0 +1,35 @@
+{
+    "850658910": {
+        "translation": "Keine ungelesenen Nachrichten"
+    },
+    "1449357124": {
+        "translation": "Du hast {unreadHighlights,plural,=1{# Benachrichtigung}other{# Benachrichtigungen}}"
+    },
+    "1809627791": {
+        "translation": "Dein Benachrichtigungsbereich von Slack ist aktiviert. Das kannst du unter „Persönliche Einstellungen > Erweitert“ ändern."
+    },
+    "2227449712": {
+        "translation": "Slack"
+    },
+    "2691950950": {
+        "translation": "Du hast ungelesene Nachrichten"
+    },
+    "2817997211": {
+        "translation": "Slack wird dich per Blinken über neue Benachrichtigungen informieren. Ändern kannst du das unter > Persönliche Einstellungen > Benachrichtigungen."
+    },
+    "3250983946": {
+        "translation": "Einstellungs-Editor"
+    },
+    "3379982589": {
+        "translation": "Über Slack"
+    },
+    "4013057354": {
+        "translation": "Wählen Sie einen Download-Speicherort"
+    },
+    "4108900219": {
+        "translation": "Slack | Net-Log"
+    },
+    "4163153666": {
+        "translation": "Warum wurde Slack nicht beendet?"
+    }
+}

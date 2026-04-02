@@ -1,0 +1,4 @@
+#!/usr/bin/sh
+
+dn="$(dirname $0)"
+"${dn}"/rpmdeps --define="_use_internal_dependency_generator 1" --provides

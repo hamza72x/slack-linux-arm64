@@ -1,0 +1,10 @@
+{
+  "name": "slack-native-rebuild",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "electron-native-auth": "^0.1.1",
+    "file-handler-info": "^0.2.1",
+    "native-keymap": "^2.2.2"
+  }
+}

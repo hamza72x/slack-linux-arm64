@@ -1,0 +1,35 @@
+{
+    "850658910": {
+        "translation": "No unread messages"
+    },
+    "1449357124": {
+        "translation": "You have {unreadHighlights,plural,=1{# notification}other{# notifications}}"
+    },
+    "1809627791": {
+        "translation": "Slack’s set to stay running in the notification area. To change this, visit Preferences > Advanced."
+    },
+    "2227449712": {
+        "translation": "Slack"
+    },
+    "2691950950": {
+        "translation": "You have unread messages"
+    },
+    "2817997211": {
+        "translation": "Slack’s set to always flash when you get notifications. To change this, go to Preferences > Notifications."
+    },
+    "3250983946": {
+        "translation": "Settings Editor"
+    },
+    "3379982589": {
+        "translation": "About Slack"
+    },
+    "4013057354": {
+        "translation": "Select a download location"
+    },
+    "4108900219": {
+        "translation": "Slack | Net log"
+    },
+    "4163153666": {
+        "translation": "Why didn’t Slack quit?"
+    }
+}

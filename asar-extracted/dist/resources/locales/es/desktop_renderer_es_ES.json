@@ -1,0 +1,98 @@
+{
+    "184693378": {
+        "translation": "Esto es un enlace de {protocol} para {hostname}. Si es lo que esperas, haz clic. De lo contrario, asegúrate de que sea un enlace de confianza."
+    },
+    "228491096": {
+        "translation": "Cerrar ventana"
+    },
+    "254104530": {
+        "translation": "Cargando..."
+    },
+    "412256135": {
+        "translation": "Avisos y reconocimientos"
+    },
+    "470219197": {
+        "translation": "¡Copiado!"
+    },
+    "599843802": {
+        "translation": "Tu registro se ha guardado en tu carpeta <strong>Descargas<\/strong>.",
+        "notes": "Please use <strong> and <\/strong> to denote bolded text (do not translate those directives)."
+    },
+    "676736683": {
+        "translation": "Si Slack no puede conectarse, <a id=1>descarga tus registros<\/a> y envíaselos a nuestro <a id=2>equipo de Ayuda<\/a> para obtener asistencia."
+    },
+    "1232096808": {
+        "translation": "Para conectarte a Slack, tienes que introducir un nombre y una contraseña para el servidor "
+    },
+    "2149550608": {
+        "translation": "Beta"
+    },
+    "2149589909": {
+        "translation": "Copiar"
+    },
+    "2150053277": {
+        "translation": "Guardar"
+    },
+    "2179150998": {
+        "translation": "GovSlack se ha desactivado, por lo que ya no podrá conectarse a los espacios de trabajo."
+    },
+    "2226335023": {
+        "translation": "Restablecer"
+    },
+    "2265579820": {
+        "translation": "Abrir enlace a app"
+    },
+    "2358485522": {
+        "translation": "Otras medidas que puedes tomar:"
+    },
+    "2362253683": {
+        "translation": "Tu registro está en curso.",
+        "notes": "Net log in progress."
+    },
+    "2380539398": {
+        "translation": "Prueba a reiniciar Slack. De esta forma, también limpiarás la caché."
+    },
+    "2782703473": {
+        "translation": "GovSlack se ha activado, por lo que ya puede conectarse a los espacio de trabajo de GovSlack."
+    },
+    "2805203296": {
+        "translation": "Abrir siempre los enlaces de{protocol} para {hostname}"
+    },
+    "2875270439": {
+        "translation": "Para conectarte a Slack, tienes que introducir un nombre y una contraseña para el proxy "
+    },
+    "2918950471": {
+        "translation": "Descargar registros"
+    },
+    "2944450756": {
+        "translation": "Windows Store"
+    },
+    "2962926561": {
+        "translation": "Estás en la fase de producción. De vuelta a tu programación habitual..."
+    },
+    "3016177985": {
+        "translation": "Dejar de registrar",
+        "notes": "Button text for stopping net log."
+    },
+    "3363816917": {
+        "translation": "Abrir siempre los enlaces de {protocolName}"
+    },
+    "3574460890": {
+        "translation": "Abrir enlaces de {protocol}"
+    },
+    "3671115087": {
+        "translation": "Este enlace abre una app, no una página web. Si es lo que esperas, haz clic. De lo contrario, asegúrate de que sea un enlace de confianza."
+    },
+    "3731817853": {
+        "translation": "Slack no se puede conectar"
+    },
+    "4160805346": {
+        "translation": "App Store"
+    },
+    "4210748714": {
+        "translation": "Comprueba la configuración de la red o cualquier <a id=1>software de seguridad<\/a> que utilices para garantizar que tienen acceso a Slack."
+    },
+    "4279321952": {
+        "translation": "¡Te hemos añadido a {releaseChannel}! 🎉Tu aplicación recibirá {releaseChannel} cuando estén disponibles."
+    }
+}

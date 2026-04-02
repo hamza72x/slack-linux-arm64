@@ -1,0 +1,35 @@
+{
+    "850658910": {
+        "translation": "Nessun messaggio non letto"
+    },
+    "1449357124": {
+        "translation": "Hai {unreadHighlights,plural,=1{# notifica}other{# notifiche}}"
+    },
+    "1809627791": {
+        "translation": "Slack è impostato per rimanere attivo nell’area notifiche. Per modificare l’impostazione, vai su Preferenze > Avanzate."
+    },
+    "2227449712": {
+        "translation": "Slack"
+    },
+    "2691950950": {
+        "translation": "Ci sono messaggi non letti"
+    },
+    "2817997211": {
+        "translation": "Slack è impostato per lampeggiare all’arrivo di nuove notifiche. Per modificare l’impostazione, vai su Preferenze > Notifiche."
+    },
+    "3250983946": {
+        "translation": "Editor impostazioni"
+    },
+    "3379982589": {
+        "translation": "Informazioni su Slack"
+    },
+    "4013057354": {
+        "translation": "Seleziona una destinazione per i download"
+    },
+    "4108900219": {
+        "translation": "Slack | Registro di rete"
+    },
+    "4163153666": {
+        "translation": "Perché Slack non si è chiuso?"
+    }
+}
