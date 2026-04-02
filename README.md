@@ -16,7 +16,7 @@ Built entirely by Claude Opus 4.6.
 
 **RPM install:**
 ```sh
-sudo rpm -i slack-4.47.69-0.1.el8.aarch64.rpm
+sudo dnf install ./slack-4.47.69-0.1.el8.aarch64.rpm
 slack
 ```
 
