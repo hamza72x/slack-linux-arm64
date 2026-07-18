@@ -1,0 +1,35 @@
+{
+    "850658910": {
+        "translation": "无未读消息"
+    },
+    "1449357124": {
+        "translation": "你有 {unreadHighlights,plural,=1 条{#通知}other{#通知}}"
+    },
+    "1809627791": {
+        "translation": "Slack 设置为在通知区内保持运行。如需更改此项，请访问选项 > 高级。"
+    },
+    "2227449712": {
+        "translation": "Slack"
+    },
+    "2691950950": {
+        "translation": "你有未读消息"
+    },
+    "2817997211": {
+        "translation": "Slack 设置为在收到通知时始终保持闪烁。如需更改此项，请访问选项 > 通知。"
+    },
+    "3250983946": {
+        "translation": "设置编辑器"
+    },
+    "3379982589": {
+        "translation": "关于 Slack"
+    },
+    "4013057354": {
+        "translation": "选择下载位置"
+    },
+    "4108900219": {
+        "translation": "Slack | 网络日志"
+    },
+    "4163153666": {
+        "translation": "为什么 Slack 未退出？"
+    }
+}

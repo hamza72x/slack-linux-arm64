@@ -1,0 +1,98 @@
+{
+    "184693378": {
+        "translation": "這是連接至 {hostname} 的 {protocol} 連結。若與你的預期相符，請放心點選。否則，請確認此為你信任的連結。"
+    },
+    "228491096": {
+        "translation": "關閉視窗"
+    },
+    "254104530": {
+        "translation": "載入中..."
+    },
+    "412256135": {
+        "translation": "通知與認可"
+    },
+    "470219197": {
+        "translation": "已複製！"
+    },
+    "599843802": {
+        "translation": "你的記錄已儲存至「<strong>下載<\/strong>」資料夾。",
+        "notes": "Please use <strong> and <\/strong> to denote bolded text (do not translate those directives)."
+    },
+    "676736683": {
+        "translation": "若 Slack 仍然無法連線，請<a id=1>下載記錄<\/a>並將記錄傳送至我們的 <a id=2>支援團隊<\/a>，取得進一步協助。"
+    },
+    "1232096808": {
+        "translation": "若要連線至 Slack，你需要輸入伺服器的使用者名稱和密碼 "
+    },
+    "2149550608": {
+        "translation": "Beta"
+    },
+    "2149589909": {
+        "translation": "複製"
+    },
+    "2150053277": {
+        "translation": "儲存"
+    },
+    "2179150998": {
+        "translation": "GovSlack 已停用，因此你無法再登入 GovSlack 工作空間。"
+    },
+    "2226335023": {
+        "translation": "重設"
+    },
+    "2265579820": {
+        "translation": "開啟應用程式連結"
+    },
+    "2358485522": {
+        "translation": "可以嘗試其他幾個步驟："
+    },
+    "2362253683": {
+        "translation": "記錄進行中。",
+        "notes": "Net log in progress."
+    },
+    "2380539398": {
+        "translation": "請嘗試重新啟動 Slack，此動作也將清除快取。"
+    },
+    "2782703473": {
+        "translation": "GovSlack 已啟用，因此你現在可以登入 GovSlack 工作空間。"
+    },
+    "2805203296": {
+        "translation": "一律開啟連接至 {hostname} 的 {protocol} 連結"
+    },
+    "2875270439": {
+        "translation": "若要連線至 Slack，你需要輸入 Proxy 的使用者名稱和密碼 "
+    },
+    "2918950471": {
+        "translation": "下載記錄"
+    },
+    "2944450756": {
+        "translation": "Windows Store"
+    },
+    "2962926561": {
+        "translation": "你正在使用正式版本。返回定期排定的計畫…"
+    },
+    "3016177985": {
+        "translation": "停止記錄",
+        "notes": "Button text for stopping net log."
+    },
+    "3363816917": {
+        "translation": "一律開啟來自 {protocolName} 的連結"
+    },
+    "3574460890": {
+        "translation": "開啟 {protocol} 連結"
+    },
+    "3671115087": {
+        "translation": "此連結會開啟應用程式，而非網站。若與你的預期相符，請放心點選。否則，請確認此為你信任的連結。"
+    },
+    "3731817853": {
+        "translation": "Slack 無法連線"
+    },
+    "4160805346": {
+        "translation": "應用程式商店"
+    },
+    "4210748714": {
+        "translation": "檢查網路設定或使用中的任何<a id=1>安全軟體<\/a>，確認這些設定允許存取 Slack。"
+    },
+    "4279321952": {
+        "translation": "你已加入 {releaseChannel}！🎉 當 {releaseChannel} 有可用更新時，你的應用程式會收到這些資訊。"
+    }
+}

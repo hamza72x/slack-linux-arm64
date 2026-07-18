@@ -1,0 +1,279 @@
+{
+    "24088086": {
+        "translation": "Copiar ID de instalación"
+    },
+    "79648571": {
+        "translation": "Salir de pantalla completa"
+    },
+    "83757596": {
+        "translation": "Añadir a diccionario"
+    },
+    "213310159": {
+        "translation": "&Limpiar caché y reiniciar"
+    },
+    "228491096": {
+        "translation": "Cerrar ventana"
+    },
+    "233958381": {
+        "translation": "Navegación con el teclado"
+    },
+    "248376214": {
+        "translation": "Control del inicio"
+    },
+    "290920624": {
+        "translation": "Inspeccionar elemento"
+    },
+    "324526129": {
+        "translation": "Usar activos locales"
+    },
+    "335279362": {
+        "translation": "Discurso"
+    },
+    "463854602": {
+        "translation": "Reiniciar y recopilar netlogs..."
+    },
+    "479719096": {
+        "translation": "Sección siguiente"
+    },
+    "492578761": {
+        "translation": "Conversación"
+    },
+    "508265312": {
+        "translation": "Alternar &DevTools"
+    },
+    "614784485": {
+        "translation": "Copiar dirección de correo"
+    },
+    "642307007": {
+        "translation": "Ade&lante"
+    },
+    "653789695": {
+        "translation": "Volver a iniciar Slack"
+    },
+    "786084958": {
+        "translation": "&Limpiar caché y salir"
+    },
+    "853060286": {
+        "translation": "Minimizar"
+    },
+    "898224708": {
+        "translation": "&Desarrollador"
+    },
+    "1214870726": {
+        "translation": "Siempre mostrar barra de &menú"
+    },
+    "1262042250": {
+        "translation": "H&istorial"
+    },
+    "1302783429": {
+        "translation": "Copiar el enlace"
+    },
+    "1343450128": {
+        "translation": "Abrir enlace"
+    },
+    "1344684856": {
+        "translation": "Limpiar caché y salir"
+    },
+    "1393286243": {
+        "translation": "Alternar &pantalla completa"
+    },
+    "1448793429": {
+        "translation": "Ale&jarse"
+    },
+    "1450597088": {
+        "translation": "Pegar con el mismo estilo"
+    },
+    "1479779558": {
+        "translation": "Desactivar aceleración de hardware y reiniciar"
+    },
+    "1496618861": {
+        "translation": "&Tamaño actual"
+    },
+    "1541986699": {
+        "translation": "Mostrar Slack inmediatamente"
+    },
+    "1685078332": {
+        "translation": "Reiniciar y recopilar registros de depuración Verbose..."
+    },
+    "1687268692": {
+        "translation": "Mantener en segundo plano"
+    },
+    "1728916720": {
+        "translation": "Copiar imagen"
+    },
+    "1871709694": {
+        "translation": "Mostrar todos"
+    },
+    "1948703567": {
+        "translation": "Reiniciar para aplicar actualización"
+    },
+    "2005111589": {
+        "translation": "&Cerrar Slack"
+    },
+    "2023105981": {
+        "translation": "&Conectarse a otro espacio de trabajo..."
+    },
+    "2027485457": {
+        "translation": "&Buscar actualizaciones..."
+    },
+    "2120422130": {
+        "translation": "&Preferencias"
+    },
+    "2147522478": {
+        "translation": "&Ir"
+    },
+    "2147551778": {
+        "translation": "Cortar"
+    },
+    "2149589909": {
+        "translation": "Copiar"
+    },
+    "2150026782": {
+        "translation": "Rehacer"
+    },
+    "2150124804": {
+        "translation": "Deshacer"
+    },
+    "2150275059": {
+        "translation": "Zoom"
+    },
+    "2184640045": {
+        "translation": "At&rás"
+    },
+    "2184732496": {
+        "translation": "&Editar"
+    },
+    "2184767170": {
+        "translation": "&Archivo"
+    },
+    "2184822919": {
+        "translation": "&Ayuda"
+    },
+    "2185106325": {
+        "translation": "&Salir"
+    },
+    "2185243627": {
+        "translation": "&Ver"
+    },
+    "2208352209": {
+        "translation": "Traer todo adelante"
+    },
+    "2212687320": {
+        "translation": "Cerrar"
+    },
+    "2224369267": {
+        "translation": "Pegar"
+    },
+    "2447182367": {
+        "translation": "Copiar URL de imagen"
+    },
+    "2472486620": {
+        "translation": "Activar el inspector del proceso principal"
+    },
+    "2483404925": {
+        "translation": "Seleccionar todo"
+    },
+    "2545826024": {
+        "translation": "Restablecer &datos de app..."
+    },
+    "2684062346": {
+        "translation": "&Novedades..."
+    },
+    "2684966484": {
+        "translation": "Abrir el editor de ajustes"
+    },
+    "2737665025": {
+        "translation": "Ocultar Otros"
+    },
+    "2779400347": {
+        "translation": "Buscar con Google"
+    },
+    "3001254706": {
+        "translation": "Ocultar Slack"
+    },
+    "3065272838": {
+        "translation": "Buscando actualización"
+    },
+    "3094776382": {
+        "translation": "A&cercarse"
+    },
+    "3096388533": {
+        "translation": "Mostrar UI de rastreo"
+    },
+    "3096707126": {
+        "translation": "Mostrar &Registros en Gestor de archivos"
+    },
+    "3192269939": {
+        "translation": "&Informar de incidencia..."
+    },
+    "3303131406": {
+        "translation": "Empezar a hablar"
+    },
+    "3379982589": {
+        "translation": "Acerca de Slack"
+    },
+    "3446734126": {
+        "translation": "Parar de hablar"
+    },
+    "3496838401": {
+        "translation": "Activar aceleración de hardware y reiniciar"
+    },
+    "3591337086": {
+        "translation": "Servicios"
+    },
+    "3603967375": {
+        "translation": "Descargando actualización"
+    },
+    "3615595735": {
+        "translation": "Hay una actualización"
+    },
+    "3662858940": {
+        "translation": "Sección anterior"
+    },
+    "3688565260": {
+        "translation": "Mostrar &Registros en Explorer"
+    },
+    "3748068388": {
+        "translation": "Abrir centro de &ayuda"
+    },
+    "3791924890": {
+        "translation": "Ata&jos de teclado"
+    },
+    "3826983308": {
+        "translation": "Buscar \"{word}\"",
+        "notes": "Do not translate between {}"
+    },
+    "3916290703": {
+        "translation": "Iniciar al iniciar sesión"
+    },
+    "3932018612": {
+        "translation": "Mostrar ventana principal"
+    },
+    "3957078367": {
+        "translation": "&Recargar"
+    },
+    "4085024050": {
+        "translation": "Forzar que se vuelva a cargar "
+    },
+    "4090050867": {
+        "translation": "Mostrar &Registros en Finder"
+    },
+    "4103967670": {
+        "translation": "V&entana"
+    },
+    "4158251775": {
+        "translation": "Activar volcado"
+    },
+    "4168076436": {
+        "translation": "Notas de la versión"
+    },
+    "4172720698": {
+        "translation": "Resolución de problemas"
+    },
+    "4190859723": {
+        "translation": "Eliminar"
+    },
+    "4226626769": {
+        "translation": "Abrir el directorio del volcado de memoria..."
+    }
+}

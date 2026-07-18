@@ -1,0 +1,684 @@
+{
+  "name": "slack-desktop",
+  "productName": "Slack",
+  "version": "4.50.143",
+  "desktopMinimumSupportedVersion": "4.37.0",
+  "branch": "HEAD",
+  "commit": "791195a",
+  "description": "Slack Desktop",
+  "copyright": "©2026 Slack Technologies LLC, a Salesforce company. All rights reserved.",
+  "authors": "Slack Technologies Inc.",
+  "maintainer": "Slack Technologies <feedback@slack.com>",
+  "main": "./dist/boot.bundle.cjs",
+  "engines": {
+    "node": ">= 24"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tinyspeck/slack-desktop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinyspeck/slack-desktop/issues"
+  },
+  "linuxPackageInfo": {
+    "categories": "GNOME;GTK;Network;InstantMessaging",
+    "genericName": "Slack Client for Linux",
+    "section": "misc"
+  },
+  "supportedOS": {
+    "darwin": ">= 10.10"
+  },
+  "lint-staged": {
+    "src/common/{interfaces,constants,utils}/**/*.ts": [
+      "ts-node --transpile-only ./build/cli/publish-types/check-and-update-metadata.ts",
+      "git add src/common/metadata/*.metadata.json",
+      "prettier --write --experimental-cli",
+      "eslint --fix"
+    ],
+    "{build/cli/publish-types/**/*.ts,src/common/publish-types.config.json}": [
+      "yarn run publish-desktop-types",
+      "git add src/common/metadata/*.metadata.json"
+    ],
+    "*.{ts,tsx}": [
+      "prettier --write --experimental-cli",
+      "eslint --fix"
+    ],
+    "*.{js,jsx}": [
+      "prettier --write --experimental-cli"
+    ]
+  },
+  "private": true,
+  "workspaces": [
+    "spec/e2e",
+    "spec/old-joe",
+    "tools/triage-agent"
+  ],
+  "scripts": {
+    "triage": "yarn workspace slack-desktop-triage-agent run triage-agent",
+    "analyze-deps": "ts-node --transpile-only ./script/analyze-deps.ts",
+    "try-electron": "ts-node --transpile-only ./build/try-electron.ts",
+    "print-version": "ts-node --transpile-only ./build/version/index.ts",
+    "postinstall": "ts-node --transpile-only ./build/postinstall.ts && ts-node --transpile-only ./build/bootstrap-cli.ts",
+    "prepare": "husky install",
+    "package": "cross-env NODE_ENV=production ts-node --transpile-only ./build/package-cli.ts",
+    "lint": "eslint --ext .ts,.tsx . --cache --cache-strategy content",
+    "lint:locales": "ts-node --transpile-only ./build/mas-supported-locale.ts",
+    "format-all:check": "prettier --check --experimental-cli build ci script spec src webpack",
+    "format-all": "prettier --write --experimental-cli build ci script spec src webpack",
+    "start": "yarn build:dev && yarn start:app --",
+    "start:app": "cross-env DEBUG='logger\\:*,electron-spellchecker\\:*' NODE_OPTIONS=--trace-deprecation electron . -r . --inspect",
+    "start:appx": "cross-env DEBUG='logger\\:*,electron-spellchecker\\:*' NODE_OPTIONS=--trace-deprecation electronmsix . -r . --inspect",
+    "test": "cross-env NODE_OPTIONS=--disable-warning=DEP0040 jest",
+    "test:webpack": "jest --config ./webpack/spec/jest.json",
+    "test:dependencies": "dependency-cruise --validate .dependency-cruiser.js ./src",
+    "compile": "tsgo -b ./src/common/tsconfig.json ./src/boot/tsconfig.json ./src/preload/tsconfig.json ./src/browser/tsconfig.json ./src/renderer/tsconfig.json ./webpack/tsconfig.json ./build/tsconfig.json ./spec/jest/tsconfig.json && tsc --noEmit --project ./spec/old-joe/tsconfig.json",
+    "clean": "ts-node --transpile-only ./script/clean.ts",
+    "build": "tsgo -b ./webpack/tsconfig.json && node ./.webpack/runner.js",
+    "build:dev": "yarn build",
+    "build:prod": "yarn build --prod",
+    "licenses": "ts-node --transpile-only ./build/generate-license.ts",
+    "dependencies": "depcruise -X \"node_modules\" --output-type dot src | dot -T svg > dependencygraph.svg",
+    "changelog": "ts-node --transpile-only ./script/changelog.ts",
+    "extract-strings": "ts-node --transpile-only ./script/extract-strings.ts",
+    "codesign": "ts-node --transpile-only ./build/cli/codesign.ts",
+    "publish-desktop-types": "ts-node --transpile-only ./build/cli/publish-types/index.ts",
+    "update-server": "ts-node --transpile-only ./spec/e2e/utils/fake-update-server.ts",
+    "https-auth-proxy": "ts-node --transpile-only ./spec/e2e/utils/https-auth-proxy.ts",
+    "release-artifact-notification": "ts-node --transpile-only ./ci/common/release-artifact-notification.ts",
+    "electron-versions": "electron-versions -f \">3.999\" -l 1000 -p alpha,beta,eta --write-markdown --write-json",
+    "packagecloud": "ts-node --transpile-only ./build/cli/packageCloud/index.ts",
+    "analyze-rxjs": "ts-node --transpile-only ./script/analyze-rxjs-refactor.ts"
+  },
+  "dependencies": {
+    "@tinyspeck/native-keymap": "2.2.3",
+    "@tinyspeck/slack-desktop-utils": "1.20.0",
+    "cf-prefs": "2.0.1",
+    "electron-native-auth": "0.1.1",
+    "file-handler-info": "0.2.1",
+    "macos-notification-state": "2.0.2",
+    "registry-js": "^1.15.1",
+    "windows-focus-assist": "1.4.0"
+  },
+  "optionalDependencies": {
+    "appdmg": "0.6.6"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "3.433.0",
+    "@electron-forge/core": "patch:@electron-forge/core@npm%3A8.0.0-alpha.8#~/.yarn/patches/@electron-forge-core-npm-8.0.0-alpha.8-5ad0a625a4.patch",
+    "@electron-forge/maker-base": "8.0.0-alpha.8",
+    "@electron-forge/maker-dmg": "8.0.0-alpha.8",
+    "@electron-forge/maker-zip": "8.0.0-alpha.8",
+    "@electron-forge/shared-types": "8.0.0-alpha.8",
+    "@electron-internal/extract-zip": "^1.0.2",
+    "@electron/asar": "^4.2.0",
+    "@electron/fuses": "^2.1.0",
+    "@electron/get": "^5.0.0",
+    "@electron/notarize": "^3.1.1",
+    "@electron/osx-sign": "^2.4.0",
+    "@erickzhao/electron-versions": "4.1.0",
+    "@npmcli/arborist": "9.4.0",
+    "@octokit/rest": "22",
+    "@sentry/types": "7.112.0",
+    "@sentry/webpack-plugin": "2.14.0",
+    "@slack/web-api": "7.13.0",
+    "@swc/core": "1.10.18",
+    "@swc/jest": "0.2.37",
+    "@testing-library/dom": "8.20.1",
+    "@testing-library/preact": "3.2.4",
+    "@testing-library/user-event": "13.2.1",
+    "@tinyspeck/i18n-translation-tools": "1.0.5",
+    "@tinyspeck/node-native-loader": "1.1.1",
+    "@types/appdmg": "0.5.2",
+    "@types/command-line-args": "5.2.0",
+    "@types/command-line-usage": "5.0.2",
+    "@types/commander": "2.12.2",
+    "@types/connect": "3.4.35",
+    "@types/conventional-commits-parser": "3.0.2",
+    "@types/cookie": "0.6.0",
+    "@types/debug": "4.1.12",
+    "@types/dompurify": "2.3.1",
+    "@types/fs-extra": "9.0.13",
+    "@types/getos": "3.0.4",
+    "@types/glob": "8.1.0",
+    "@types/http-proxy": "1.17.9",
+    "@types/jest": "30.0.0",
+    "@types/lodash": "4.17.24",
+    "@types/lodash-es": "4.17.12",
+    "@types/node": "24.12.2",
+    "@types/node-fetch": "2.5.12",
+    "@types/npmcli__arborist": "6.3.3",
+    "@types/plist": "3.0.2",
+    "@types/prettier": "2.4.1",
+    "@types/react-redux": "7.1.18",
+    "@types/react-transition-group": "4.4.3",
+    "@types/semver": "7.3.9",
+    "@types/set-cookie-parser": "2.4.7",
+    "@types/shelljs": "0.8.15",
+    "@types/tmp": "0.2.6",
+    "@types/uuid-validate": "0.0.1",
+    "@types/write-file-atomic": "3.0.2",
+    "@typescript-eslint/eslint-plugin": "7.12.0",
+    "@typescript-eslint/parser": "7.12.0",
+    "@typescript/native-preview": "7.0.0-dev.20260306.1",
+    "canvaskit-wasm": "0.39.1",
+    "chalk": "2.3.0",
+    "commander": "8.2.0",
+    "conventional-commits-parser": "3.2.2",
+    "copy-webpack-plugin": "10.2.0",
+    "cross-env": "7.0.3",
+    "csp-html-webpack-plugin": "5.1.0",
+    "csv-write-stream": "2.0.0",
+    "debug": "^4.4.3",
+    "dependency-cruiser": "12.12.2",
+    "deterministic-versions": "catalog:",
+    "electron": "42.4.1",
+    "electron-windows-msix": "1.1.7",
+    "electron-winstaller": "2.5.1",
+    "electron-wix-msi": "3.2.0",
+    "esbuild": "0.25.0",
+    "esbuild-loader": "4.2.2",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-ban": "1.5.2",
+    "eslint-plugin-deprecation": "3.0.0",
+    "eslint-plugin-jest": "28.9.0",
+    "eslint-plugin-simple-import-sort": "7.0.0",
+    "fast-xml-parser": "^5.5.9",
+    "file-loader": "6.2.0",
+    "glob": "11.1.0",
+    "google-auth-library": "9.14.0",
+    "google-spreadsheet": "4.1.4",
+    "html-webpack-plugin": "5.3.2",
+    "http-proxy": "1.18.1",
+    "husky": "8.0.2",
+    "jest": "30.0.2",
+    "jest-diff": "27.2.4",
+    "jest-environment-jsdom": "30.0.2",
+    "jest-extended": "0.11.5",
+    "jest-fetch-mock": "3.0.3",
+    "jest-junit-reporter": "1.1.0",
+    "jest-spin-reporter": "2.0.0",
+    "jest-text-transformer": "1.0.4",
+    "jest-worker": "27.2.4",
+    "less": "4.1.1",
+    "less-loader": "10.0.1",
+    "lint-staged": "10.5.3",
+    "lodash": "4.17.23",
+    "node-fetch": "2.7.0",
+    "node-gyp": "11.5.0",
+    "plist": "3.0.5",
+    "prettier": "3.8.1",
+    "proxy-agent": "6.3.1",
+    "readline": "1.3.0",
+    "rx-sandbox": "2.0.3",
+    "shelljs": "0.8.5",
+    "source-map-loader": "3.0.0",
+    "spawn-rx": "3.0.0",
+    "swc_mut_cjs_exports": "10.7.0",
+    "ts-node": "catalog:",
+    "tsutils": "3.21.0",
+    "typescript": "catalog:",
+    "webpack": "^5.105.4",
+    "webpack-bundle-analyzer": "4.10.2",
+    "webpack-merge": "5.8.0",
+    "webpack-subresource-integrity": "5.1.0",
+    "@reduxjs/toolkit": "2.2.7",
+    "@sentry/electron": "4.24.0",
+    "command-line-args": "6.0.0",
+    "command-line-usage": "7.0.1",
+    "connect": "3.7.0",
+    "cookie": "0.7.2",
+    "css-loader": "6.8.1",
+    "despatch": "0.1.1",
+    "dompurify": "3.3.1",
+    "electron-chrome-web-store": "0.8.1",
+    "electron-redux": "1.5.4",
+    "fflate": "0.7.1",
+    "filenamify": "4.3.0",
+    "form-data": "4.0.4",
+    "format-message-parse": "6.2.3",
+    "fs-extra": "10.0.0",
+    "getos": "3.2.1",
+    "joi": "17.13.3",
+    "linux-os-release": "0.1.0",
+    "lodash-es": "4.17.23",
+    "message-format": "6.2.3",
+    "nothing-mock": "1.0.4",
+    "preact": "10.19.2",
+    "raw-loader": "4.0.2",
+    "react-redux": "7.2.4",
+    "react-resize-detector": "9.1.0",
+    "react-transition-group": "4.4.2",
+    "redux": "5.0.1",
+    "redux-observable": "3.0.0-rc.3",
+    "redux-persist": "6.0.0",
+    "redux-persist-node-storage": "2.0.0",
+    "rxjs": "7.4.0",
+    "rxjs-spy": "8.0.0",
+    "semver": "7.5.2",
+    "set-cookie-parser": "2.6.0",
+    "style-loader": "3.3.0",
+    "tmp": "0.2.4",
+    "url-parse": "1.5.10",
+    "uuid-validate": "0.0.3",
+    "winston": "3.3.3",
+    "write-file-atomic": "3.0.3",
+    "xml-escape": "1.1.0"
+  },
+  "resolutions": {
+    "fast-xml-parser": "^5.5.9",
+    "@sentry/electron@npm:4.24.0": "patch:@sentry/electron@npm%3A4.24.0#./.yarn/patches/@sentry-electron-npm-4.24.0.patch",
+    "@sentry/replay@npm:7.112.0": "patch:@sentry/replay@npm%3A7.112.0#./.yarn/patches/@sentry-replay-npm-7.112.0.patch",
+    "@tinyspeck/native-keymap@npm:2.2.3": "patch:@tinyspeck/native-keymap@npm%3A2.2.3#./.yarn/patches/@tinyspeck-native-keymap-npm-2.2.3.patch",
+    "@wdio/junit-reporter@npm:9.2.14": "patch:@wdio/junit-reporter@npm%3A9.2.14#./.yarn/patches/@wdio-junit-reporter-npm-9.2.14.patch",
+    "@wdio/mocha-framework/mocha": "^11.0.0",
+    "cross-spawn": "7.0.5",
+    "diff": "npm:8.0.3",
+    "electron-native-auth@npm:0.1.1": "patch:electron-native-auth@npm%3A0.1.1#./.yarn/patches/electron-native-auth-npm-0.1.1.patch",
+    "electron-redux@npm:1.5.4": "patch:electron-redux@npm%3A1.5.4#./.yarn/patches/electron-redux-npm-1.5.4.patch",
+    "electron-winstaller/asar": "3.1.0",
+    "file-handler-info@npm:0.2.1": "patch:file-handler-info@npm%3A0.2.1#./.yarn/patches/file-handler-info-npm-0.2.1.patch",
+    "macos-alias": "patch:macos-alias@npm%3A0.2.12#./.yarn/patches/macos-alias-npm-0.2.12.patch",
+    "nan": "2.26.2",
+    "node-localstorage@npm:1.3.1": "patch:node-localstorage@npm%3A1.3.1#./.yarn/patches/node-localstorage-npm-1.3.1.patch",
+    "prebuild-install/node-abi": "^4.27.0",
+    "redux-persist@npm:6.0.0": "patch:redux-persist@npm%3A6.0.0#./.yarn/patches/redux-persist-npm-6.0.0.patch",
+    "rxjs-report-usage": "portal:./patches/stub",
+    "jws": "npm:^4.0.1"
+  },
+  "dependenciesMeta": {
+    "@bitdisaster/exe-icon-extractor": {
+      "built": true
+    },
+    "@sentry/cli": {
+      "built": true
+    },
+    "@swc/core": {
+      "built": true
+    },
+    "@tinyspeck/native-keymap": {
+      "built": true
+    },
+    "@tinyspeck/slack-desktop-utils": {
+      "built": true
+    },
+    "cf-prefs": {
+      "built": true
+    },
+    "electron-native-auth": {
+      "built": true
+    },
+    "file-handler-info": {
+      "built": true
+    },
+    "fs-xattr": {
+      "built": true
+    },
+    "macos-alias": {
+      "built": true
+    },
+    "macos-notification-state": {
+      "built": true
+    },
+    "registry-js": {
+      "built": true
+    },
+    "robotjs": {
+      "built": true
+    },
+    "tesseract.js": {
+      "built": true
+    },
+    "unrs-resolver": {
+      "built": true
+    },
+    "windows-focus-assist": {
+      "built": true
+    },
+    "windows-notification-state": {
+      "built": true
+    }
+  },
+  "default": {
+    "name": "slack-desktop",
+    "productName": "Slack",
+    "version": "4.50.143",
+    "desktopMinimumSupportedVersion": "4.37.0",
+    "branch": "HEAD",
+    "commit": "791195a",
+    "description": "Slack Desktop",
+    "copyright": "©2026 Slack Technologies LLC, a Salesforce company. All rights reserved.",
+    "authors": "Slack Technologies Inc.",
+    "maintainer": "Slack Technologies <feedback@slack.com>",
+    "main": "./dist/boot.bundle.cjs",
+    "engines": {
+      "node": ">= 24"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tinyspeck/slack-desktop.git"
+    },
+    "bugs": {
+      "url": "https://github.com/tinyspeck/slack-desktop/issues"
+    },
+    "linuxPackageInfo": {
+      "categories": "GNOME;GTK;Network;InstantMessaging",
+      "genericName": "Slack Client for Linux",
+      "section": "misc"
+    },
+    "supportedOS": {
+      "darwin": ">= 10.10"
+    },
+    "lint-staged": {
+      "src/common/{interfaces,constants,utils}/**/*.ts": [
+        "ts-node --transpile-only ./build/cli/publish-types/check-and-update-metadata.ts",
+        "git add src/common/metadata/*.metadata.json",
+        "prettier --write --experimental-cli",
+        "eslint --fix"
+      ],
+      "{build/cli/publish-types/**/*.ts,src/common/publish-types.config.json}": [
+        "yarn run publish-desktop-types",
+        "git add src/common/metadata/*.metadata.json"
+      ],
+      "*.{ts,tsx}": [
+        "prettier --write --experimental-cli",
+        "eslint --fix"
+      ],
+      "*.{js,jsx}": [
+        "prettier --write --experimental-cli"
+      ]
+    },
+    "private": true,
+    "workspaces": [
+      "spec/e2e",
+      "spec/old-joe",
+      "tools/triage-agent"
+    ],
+    "scripts": {
+      "triage": "yarn workspace slack-desktop-triage-agent run triage-agent",
+      "analyze-deps": "ts-node --transpile-only ./script/analyze-deps.ts",
+      "try-electron": "ts-node --transpile-only ./build/try-electron.ts",
+      "print-version": "ts-node --transpile-only ./build/version/index.ts",
+      "postinstall": "ts-node --transpile-only ./build/postinstall.ts && ts-node --transpile-only ./build/bootstrap-cli.ts",
+      "prepare": "husky install",
+      "package": "cross-env NODE_ENV=production ts-node --transpile-only ./build/package-cli.ts",
+      "lint": "eslint --ext .ts,.tsx . --cache --cache-strategy content",
+      "lint:locales": "ts-node --transpile-only ./build/mas-supported-locale.ts",
+      "format-all:check": "prettier --check --experimental-cli build ci script spec src webpack",
+      "format-all": "prettier --write --experimental-cli build ci script spec src webpack",
+      "start": "yarn build:dev && yarn start:app --",
+      "start:app": "cross-env DEBUG='logger\\:*,electron-spellchecker\\:*' NODE_OPTIONS=--trace-deprecation electron . -r . --inspect",
+      "start:appx": "cross-env DEBUG='logger\\:*,electron-spellchecker\\:*' NODE_OPTIONS=--trace-deprecation electronmsix . -r . --inspect",
+      "test": "cross-env NODE_OPTIONS=--disable-warning=DEP0040 jest",
+      "test:webpack": "jest --config ./webpack/spec/jest.json",
+      "test:dependencies": "dependency-cruise --validate .dependency-cruiser.js ./src",
+      "compile": "tsgo -b ./src/common/tsconfig.json ./src/boot/tsconfig.json ./src/preload/tsconfig.json ./src/browser/tsconfig.json ./src/renderer/tsconfig.json ./webpack/tsconfig.json ./build/tsconfig.json ./spec/jest/tsconfig.json && tsc --noEmit --project ./spec/old-joe/tsconfig.json",
+      "clean": "ts-node --transpile-only ./script/clean.ts",
+      "build": "tsgo -b ./webpack/tsconfig.json && node ./.webpack/runner.js",
+      "build:dev": "yarn build",
+      "build:prod": "yarn build --prod",
+      "licenses": "ts-node --transpile-only ./build/generate-license.ts",
+      "dependencies": "depcruise -X \"node_modules\" --output-type dot src | dot -T svg > dependencygraph.svg",
+      "changelog": "ts-node --transpile-only ./script/changelog.ts",
+      "extract-strings": "ts-node --transpile-only ./script/extract-strings.ts",
+      "codesign": "ts-node --transpile-only ./build/cli/codesign.ts",
+      "publish-desktop-types": "ts-node --transpile-only ./build/cli/publish-types/index.ts",
+      "update-server": "ts-node --transpile-only ./spec/e2e/utils/fake-update-server.ts",
+      "https-auth-proxy": "ts-node --transpile-only ./spec/e2e/utils/https-auth-proxy.ts",
+      "release-artifact-notification": "ts-node --transpile-only ./ci/common/release-artifact-notification.ts",
+      "electron-versions": "electron-versions -f \">3.999\" -l 1000 -p alpha,beta,eta --write-markdown --write-json",
+      "packagecloud": "ts-node --transpile-only ./build/cli/packageCloud/index.ts",
+      "analyze-rxjs": "ts-node --transpile-only ./script/analyze-rxjs-refactor.ts"
+    },
+    "dependencies": {
+      "@reduxjs/toolkit": "2.2.7",
+      "@sentry/electron": "4.24.0",
+      "@tinyspeck/native-keymap": "2.2.3",
+      "@tinyspeck/slack-desktop-utils": "1.20.0",
+      "cf-prefs": "2.0.1",
+      "command-line-args": "6.0.0",
+      "command-line-usage": "7.0.1",
+      "connect": "3.7.0",
+      "cookie": "0.7.2",
+      "css-loader": "6.8.1",
+      "despatch": "0.1.1",
+      "dompurify": "3.3.1",
+      "electron-chrome-web-store": "0.8.1",
+      "electron-native-auth": "0.1.1",
+      "electron-redux": "1.5.4",
+      "fflate": "0.7.1",
+      "file-handler-info": "0.2.1",
+      "filenamify": "4.3.0",
+      "form-data": "4.0.4",
+      "format-message-parse": "6.2.3",
+      "fs-extra": "10.0.0",
+      "getos": "3.2.1",
+      "joi": "17.13.3",
+      "linux-os-release": "0.1.0",
+      "lodash-es": "4.17.23",
+      "macos-notification-state": "2.0.2",
+      "message-format": "6.2.3",
+      "nothing-mock": "1.0.4",
+      "preact": "10.19.2",
+      "raw-loader": "4.0.2",
+      "react-redux": "7.2.4",
+      "react-resize-detector": "9.1.0",
+      "react-transition-group": "4.4.2",
+      "redux": "5.0.1",
+      "redux-observable": "3.0.0-rc.3",
+      "redux-persist": "6.0.0",
+      "redux-persist-node-storage": "2.0.0",
+      "registry-js": "^1.15.1",
+      "rxjs": "7.4.0",
+      "rxjs-spy": "8.0.0",
+      "semver": "7.5.2",
+      "set-cookie-parser": "2.6.0",
+      "style-loader": "3.3.0",
+      "tmp": "0.2.4",
+      "url-parse": "1.5.10",
+      "uuid-validate": "0.0.3",
+      "windows-focus-assist": "1.4.0",
+      "winston": "3.3.3",
+      "write-file-atomic": "3.0.3",
+      "xml-escape": "1.1.0"
+    },
+    "optionalDependencies": {
+      "appdmg": "0.6.6"
+    },
+    "devDependencies": {
+      "@aws-sdk/client-s3": "3.433.0",
+      "@electron-forge/core": "patch:@electron-forge/core@npm%3A8.0.0-alpha.8#~/.yarn/patches/@electron-forge-core-npm-8.0.0-alpha.8-5ad0a625a4.patch",
+      "@electron-forge/maker-base": "8.0.0-alpha.8",
+      "@electron-forge/maker-dmg": "8.0.0-alpha.8",
+      "@electron-forge/maker-zip": "8.0.0-alpha.8",
+      "@electron-forge/shared-types": "8.0.0-alpha.8",
+      "@electron-internal/extract-zip": "^1.0.2",
+      "@electron/asar": "^4.2.0",
+      "@electron/fuses": "^2.1.0",
+      "@electron/get": "^5.0.0",
+      "@electron/notarize": "^3.1.1",
+      "@electron/osx-sign": "^2.4.0",
+      "@erickzhao/electron-versions": "4.1.0",
+      "@npmcli/arborist": "9.4.0",
+      "@octokit/rest": "22",
+      "@sentry/types": "7.112.0",
+      "@sentry/webpack-plugin": "2.14.0",
+      "@slack/web-api": "7.13.0",
+      "@swc/core": "1.10.18",
+      "@swc/jest": "0.2.37",
+      "@testing-library/dom": "8.20.1",
+      "@testing-library/preact": "3.2.4",
+      "@testing-library/user-event": "13.2.1",
+      "@tinyspeck/i18n-translation-tools": "1.0.5",
+      "@tinyspeck/node-native-loader": "1.1.1",
+      "@types/appdmg": "0.5.2",
+      "@types/command-line-args": "5.2.0",
+      "@types/command-line-usage": "5.0.2",
+      "@types/commander": "2.12.2",
+      "@types/connect": "3.4.35",
+      "@types/conventional-commits-parser": "3.0.2",
+      "@types/cookie": "0.6.0",
+      "@types/debug": "4.1.12",
+      "@types/dompurify": "2.3.1",
+      "@types/fs-extra": "9.0.13",
+      "@types/getos": "3.0.4",
+      "@types/glob": "8.1.0",
+      "@types/http-proxy": "1.17.9",
+      "@types/jest": "30.0.0",
+      "@types/lodash": "4.17.24",
+      "@types/lodash-es": "4.17.12",
+      "@types/node": "24.12.2",
+      "@types/node-fetch": "2.5.12",
+      "@types/npmcli__arborist": "6.3.3",
+      "@types/plist": "3.0.2",
+      "@types/prettier": "2.4.1",
+      "@types/react-redux": "7.1.18",
+      "@types/react-transition-group": "4.4.3",
+      "@types/semver": "7.3.9",
+      "@types/set-cookie-parser": "2.4.7",
+      "@types/shelljs": "0.8.15",
+      "@types/tmp": "0.2.6",
+      "@types/uuid-validate": "0.0.1",
+      "@types/write-file-atomic": "3.0.2",
+      "@typescript-eslint/eslint-plugin": "7.12.0",
+      "@typescript-eslint/parser": "7.12.0",
+      "@typescript/native-preview": "7.0.0-dev.20260306.1",
+      "canvaskit-wasm": "0.39.1",
+      "chalk": "2.3.0",
+      "commander": "8.2.0",
+      "conventional-commits-parser": "3.2.2",
+      "copy-webpack-plugin": "10.2.0",
+      "cross-env": "7.0.3",
+      "csp-html-webpack-plugin": "5.1.0",
+      "csv-write-stream": "2.0.0",
+      "debug": "^4.4.3",
+      "dependency-cruiser": "12.12.2",
+      "deterministic-versions": "catalog:",
+      "electron": "42.4.1",
+      "electron-windows-msix": "1.1.7",
+      "electron-winstaller": "2.5.1",
+      "electron-wix-msi": "3.2.0",
+      "esbuild": "0.25.0",
+      "esbuild-loader": "4.2.2",
+      "eslint": "8.57.0",
+      "eslint-config-prettier": "8.3.0",
+      "eslint-plugin-ban": "1.5.2",
+      "eslint-plugin-deprecation": "3.0.0",
+      "eslint-plugin-jest": "28.9.0",
+      "eslint-plugin-simple-import-sort": "7.0.0",
+      "fast-xml-parser": "^5.5.9",
+      "file-loader": "6.2.0",
+      "glob": "11.1.0",
+      "google-auth-library": "9.14.0",
+      "google-spreadsheet": "4.1.4",
+      "html-webpack-plugin": "5.3.2",
+      "http-proxy": "1.18.1",
+      "husky": "8.0.2",
+      "jest": "30.0.2",
+      "jest-diff": "27.2.4",
+      "jest-environment-jsdom": "30.0.2",
+      "jest-extended": "0.11.5",
+      "jest-fetch-mock": "3.0.3",
+      "jest-junit-reporter": "1.1.0",
+      "jest-spin-reporter": "2.0.0",
+      "jest-text-transformer": "1.0.4",
+      "jest-worker": "27.2.4",
+      "less": "4.1.1",
+      "less-loader": "10.0.1",
+      "lint-staged": "10.5.3",
+      "lodash": "4.17.23",
+      "node-fetch": "2.7.0",
+      "node-gyp": "11.5.0",
+      "plist": "3.0.5",
+      "prettier": "3.8.1",
+      "proxy-agent": "6.3.1",
+      "readline": "1.3.0",
+      "rx-sandbox": "2.0.3",
+      "shelljs": "0.8.5",
+      "source-map-loader": "3.0.0",
+      "spawn-rx": "3.0.0",
+      "swc_mut_cjs_exports": "10.7.0",
+      "ts-node": "catalog:",
+      "tsutils": "3.21.0",
+      "typescript": "catalog:",
+      "webpack": "^5.105.4",
+      "webpack-bundle-analyzer": "4.10.2",
+      "webpack-merge": "5.8.0",
+      "webpack-subresource-integrity": "5.1.0"
+    },
+    "resolutions": {
+      "fast-xml-parser": "^5.5.9",
+      "@sentry/electron@npm:4.24.0": "patch:@sentry/electron@npm%3A4.24.0#./.yarn/patches/@sentry-electron-npm-4.24.0.patch",
+      "@sentry/replay@npm:7.112.0": "patch:@sentry/replay@npm%3A7.112.0#./.yarn/patches/@sentry-replay-npm-7.112.0.patch",
+      "@tinyspeck/native-keymap@npm:2.2.3": "patch:@tinyspeck/native-keymap@npm%3A2.2.3#./.yarn/patches/@tinyspeck-native-keymap-npm-2.2.3.patch",
+      "@wdio/junit-reporter@npm:9.2.14": "patch:@wdio/junit-reporter@npm%3A9.2.14#./.yarn/patches/@wdio-junit-reporter-npm-9.2.14.patch",
+      "@wdio/mocha-framework/mocha": "^11.0.0",
+      "cross-spawn": "7.0.5",
+      "diff": "npm:8.0.3",
+      "electron-native-auth@npm:0.1.1": "patch:electron-native-auth@npm%3A0.1.1#./.yarn/patches/electron-native-auth-npm-0.1.1.patch",
+      "electron-redux@npm:1.5.4": "patch:electron-redux@npm%3A1.5.4#./.yarn/patches/electron-redux-npm-1.5.4.patch",
+      "electron-winstaller/asar": "3.1.0",
+      "file-handler-info@npm:0.2.1": "patch:file-handler-info@npm%3A0.2.1#./.yarn/patches/file-handler-info-npm-0.2.1.patch",
+      "macos-alias": "patch:macos-alias@npm%3A0.2.12#./.yarn/patches/macos-alias-npm-0.2.12.patch",
+      "nan": "2.26.2",
+      "node-localstorage@npm:1.3.1": "patch:node-localstorage@npm%3A1.3.1#./.yarn/patches/node-localstorage-npm-1.3.1.patch",
+      "prebuild-install/node-abi": "^4.27.0",
+      "redux-persist@npm:6.0.0": "patch:redux-persist@npm%3A6.0.0#./.yarn/patches/redux-persist-npm-6.0.0.patch",
+      "rxjs-report-usage": "portal:./patches/stub",
+      "jws": "npm:^4.0.1"
+    },
+    "dependenciesMeta": {
+      "@bitdisaster/exe-icon-extractor": {
+        "built": true
+      },
+      "@sentry/cli": {
+        "built": true
+      },
+      "@swc/core": {
+        "built": true
+      },
+      "@tinyspeck/native-keymap": {
+        "built": true
+      },
+      "@tinyspeck/slack-desktop-utils": {
+        "built": true
+      },
+      "cf-prefs": {
+        "built": true
+      },
+      "electron-native-auth": {
+        "built": true
+      },
+      "file-handler-info": {
+        "built": true
+      },
+      "fs-xattr": {
+        "built": true
+      },
+      "macos-alias": {
+        "built": true
+      },
+      "macos-notification-state": {
+        "built": true
+      },
+      "registry-js": {
+        "built": true
+      },
+      "robotjs": {
+        "built": true
+      },
+      "tesseract.js": {
+        "built": true
+      },
+      "unrs-resolver": {
+        "built": true
+      },
+      "windows-focus-assist": {
+        "built": true
+      },
+      "windows-notification-state": {
+        "built": true
+      }
+    }
+  }
+}

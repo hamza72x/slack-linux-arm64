@@ -1,0 +1,144 @@
+{
+    "4945462": {
+        "translation": "Slack in Anwendungen verschieben?"
+    },
+    "34630045": {
+        "translation": "Es sieht so aus, als würde Slack über die Installationsdatei laufen. Damit Slack ordnungsgemäß funktioniert, können wir eine Verschiebung in das Anwendungsverzeichnis vornehmen."
+    },
+    "46843414": {
+        "translation": "„Du bist im Begriff, die Datei ‚{fileName}‘ mit anderen Personen im Channel ‚{channelId}‘ zu teilen. Fortfahren?“"
+    },
+    "136710364": {
+        "translation": "Dies liegt wahrscheinlich an einer langsamen Netzwerkverbindung. Zur Wiederherstellung können wir entweder warten, neu laden oder neu starten. Falls dies nicht hilft, wende dich an den Support."
+    },
+    "212721705": {
+        "translation": "Nicht erneut nachfragen"
+    },
+    "296709561": {
+        "translation": "Neu laden"
+    },
+    "468287136": {
+        "translation": "Bestätigen"
+    },
+    "563969361": {
+        "translation": "Du hast die neueste Version von Slack. Danke, dass du am Ball bleibst."
+    },
+    "653789695": {
+        "translation": "Slack neu starten"
+    },
+    "867210976": {
+        "translation": "Slack zurücksetzen?"
+    },
+    "915428966": {
+        "translation": "Slack reagiert nicht mehr.\n\nWir können die Seite neu laden, um eine Wiederherstellung zu versuchen. Falls dies nicht hilft, wende dich an den Support."
+    },
+    "987847184": {
+        "translation": "Slack reagiert nicht mehr"
+    },
+    "1114262255": {
+        "translation": "Alles bestens"
+    },
+    "1294172317": {
+        "translation": "Bist du sicher?"
+    },
+    "1332677186": {
+        "translation": "Slack kann diese Dateiart nicht öffnen."
+    },
+    "1343271314": {
+        "translation": "Datei öffnen"
+    },
+    "1360240177": {
+        "translation": "​Um mit der Aufzeichnung eines Net-Logs zu beginnen, muss Slack neu gestartet werden. Klicke auf „Okay“ und öffne Slack erneut."
+    },
+    "1522592627": {
+        "translation": "Leider scheint Slack nicht die richtigen Berechtigungen zu haben, um sich selbst zu aktualisieren."
+    },
+    "1567656214": {
+        "translation": "Dabei wirst du aus all deinen Workspaces abgemeldet, die App wird auf den Originalzustand zurückgesetzt und neu gestartet."
+    },
+    "1588876707": {
+        "translation": "Falls das Problem weiterhin besteht, kannst du Schwierigkeiten melden oder unter feedback@slack.com – gerne auch auf Deutsch – Kontakt mit uns aufnehmen."
+    },
+    "1612182706": {
+        "translation": "Weiter warten"
+    },
+    "1649803857": {
+        "translation": "Slack konnte nicht aktualisiert werden"
+    },
+    "1704747187": {
+        "translation": "Bitte überprüfe deine Internetverbindung und kontaktiere den Support, falls dieses Problem weiterhin besteht."
+    },
+    "1793743312": {
+        "translation": "Dies ist eine {fileExt}-Datei und sie wird in {appName} geöffnet. Stelle sicher, dass du dieser Datei vertraust, bevor du sie direkt öffnest."
+    },
+    "1954625384": {
+        "translation": "Neu starten und Net-Logs erfassen?"
+    },
+    "2171447151": {
+        "translation": "Diese Datei existiert nicht mehr."
+    },
+    "2227449712": {
+        "translation": "Slack"
+    },
+    "2336911271": {
+        "translation": "Die aufgezeichneten Net-Logs werden beim Export in andere Log-Dateien aufgenommen."
+    },
+    "2465692716": {
+        "translation": "&Datei öffnen"
+    },
+    "2810434478": {
+        "translation": "In wenigen Augenblicken wird Slack um die Berechtigung zum Aktualisieren bitten. Bitte verwenden Sie einen Administrator-Account, um die Anfrage zu genehmigen."
+    },
+    "2896655900": {
+        "translation": "Neu starten && Problem melden",
+        "notes": "double ampersand is for windows platform. if translated string does not need ampersand can ignore it."
+    },
+    "3031263097": {
+        "translation": "Slack auf dem neuesten Stand halten"
+    },
+    "3166615289": {
+        "translation": "Nicht erneut anzeigen"
+    },
+    "3173305630": {
+        "translation": "Slack hat Schwierigkeiten beim Laden"
+    },
+    "3371422740": {
+        "translation": "Dabei wirst du aus all deinen Workspaces abgemeldet, die App wird auf den Originalzustand zurückgesetzt und beendet."
+    },
+    "3389709572": {
+        "translation": "​​​Slack jetzt neu starten, um ein Net-Log zu erfassen?"
+    },
+    "3410109026": {
+        "translation": "Damit wird eine Protokolldatei im Download-Speicherort von Slack gespeichert. Fortfahren?"
+    },
+    "3436506706": {
+        "translation": "Dies ist eine {fileExt}-Datei und sie wird in einer anderen Anwendung geöffnet. Stelle sicher, dass du dieser Datei vertraust, bevor du sie direkt öffnest."
+    },
+    "3470779642": {
+        "translation": "Wir können die Seite neu laden, um eine Wiederherstellung zu versuchen. Falls dies nicht hilft, wende dich an den Support."
+    },
+    "3500533755": {
+        "translation": "​​Bitte beende Slack und starte die App neu"
+    },
+    "3523995200": {
+        "translation": "&Abbrechen"
+    },
+    "3526497016": {
+        "translation": "Neu starten & Problem melden"
+    },
+    "3549285835": {
+        "translation": "Slack hat Schwierigkeiten beim Laden. Dies liegt wahrscheinlich an einer langsamen Netzwerkverbindung. Zur Wiederherstellung können wir entweder warten, neu laden oder neu starten. Falls dies nicht hilft, wende dich an den Support."
+    },
+    "3695522217": {
+        "translation": "{fileExt}-Dateien immer öffnen."
+    },
+    "3805691147": {
+        "translation": "Slack ist abgestürzt!"
+    },
+    "3940220280": {
+        "translation": "Es tut uns schrecklich leid, aber es sind Probleme aufgetreten und wir müssen Slack neu starten."
+    },
+    "4106677555": {
+        "translation": "Cache löschen und neu laden"
+    }
+}

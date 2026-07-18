@@ -1,0 +1,3 @@
+(()=>{"use strict";var o={157(e){e.exports=require("electron")}},t={};function a(e){var s=t[e];if(s!==void 0)return s.exports;var r=t[e]={exports:{}};return o[e](r,r.exports,a),r.exports}var _={};const{systemPreferences:c}=a(157);process.parentPort.on("message",e=>{const s=c.getMediaAccessStatus(e.data.message);process.parentPort.postMessage(s)}),module.exports=_})();
+
+//# sourceMappingURL=call-get-media-access-status-entry-point.bundle.js.map

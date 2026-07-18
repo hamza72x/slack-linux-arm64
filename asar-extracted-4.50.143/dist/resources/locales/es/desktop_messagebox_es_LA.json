@@ -1,0 +1,144 @@
+{
+    "4945462": {
+        "translation": "¿Quieres mover Slack a Aplicaciones?"
+    },
+    "34630045": {
+        "translation": "Parece que Slack se está ejecutando desde el archivo de instalación. Para que funcione correctamente, muévelo al directorio de aplicaciones."
+    },
+    "46843414": {
+        "translation": "«Estás a punto de compartir el archivo '{fileName}' con otras personas en el canal '{channelId}'. ¿Continuar?»"
+    },
+    "136710364": {
+        "translation": "Probablemente, esto se deba a una red lenta. Podemos esperar, volver a cargar o reiniciar para intentar resolver el problema. Si esto no funciona, comunícate con el equipo de Asistencia."
+    },
+    "212721705": {
+        "translation": "No preguntarme de nuevo"
+    },
+    "296709561": {
+        "translation": "Volver a cargar"
+    },
+    "468287136": {
+        "translation": "Confirmar"
+    },
+    "563969361": {
+        "translation": "Tienes la última versión de Slack; gracias por estar al pendiente."
+    },
+    "653789695": {
+        "translation": "Reiniciar Slack"
+    },
+    "867210976": {
+        "translation": "¿Quieres restablecer Slack?"
+    },
+    "915428966": {
+        "translation": "Slack dejó de responder.\n\nPodemos cargarlo de nuevo para intentar resolver el problema. Si esto no funciona, comunícate con el equipo de Asistencia."
+    },
+    "987847184": {
+        "translation": "Slack dejó de responder"
+    },
+    "1114262255": {
+        "translation": "No te preocupes"
+    },
+    "1294172317": {
+        "translation": "¿Seguro?"
+    },
+    "1332677186": {
+        "translation": "Slack no puede abrir ese tipo de archivo."
+    },
+    "1343271314": {
+        "translation": "Abrir archivo"
+    },
+    "1360240177": {
+        "translation": "​Para empezar a guardar los registros de red, Slack debe reiniciarse. Haz clic en Entendido y, luego, vuelve a abrir Slack."
+    },
+    "1522592627": {
+        "translation": "Lamentablemente, parece que Slack no tiene los permisos necesarios para actualizarse solo."
+    },
+    "1567656214": {
+        "translation": "Se cerrará la sesión de todos tus espacios de trabajo, se restablecerá la app a su estado original y se reiniciará."
+    },
+    "1588876707": {
+        "translation": "Si el problema continúa, informa sobre la incidencia o ponte en contacto con nosotros en feedback@slack.com. Recuerda que nuestro equipo de Asistencia al usuario te puede ayudar en español."
+    },
+    "1612182706": {
+        "translation": "Seguir esperando"
+    },
+    "1649803857": {
+        "translation": "No se puede actualizar Slack"
+    },
+    "1704747187": {
+        "translation": "Comprueba la conexión a internet y ponte en contacto con Asistencia técnica si continúa el problema."
+    },
+    "1793743312": {
+        "translation": "Este es un archivo {fileExt} y se abrirá en {appName}. Asegúrate de que este archivo es de confianza antes de abrirlo directamente."
+    },
+    "1954625384": {
+        "translation": "¿Deseas reiniciar y recopilar los registros de red?"
+    },
+    "2171447151": {
+        "translation": "Ese archivo ya no existe."
+    },
+    "2227449712": {
+        "translation": "Slack"
+    },
+    "2336911271": {
+        "translation": "Los registros de red guardados se incluirán con otros archivos de registro al exportarlos."
+    },
+    "2465692716": {
+        "translation": "&Abrir archivo"
+    },
+    "2810434478": {
+        "translation": "En un segundo, Slack va a solicitar permiso para actualizarse. Tendrás que usar una cuenta de administrador para aprobar la solicitud."
+    },
+    "2896655900": {
+        "translation": "Reiniciar e informar incidencia",
+        "notes": "double ampersand is for windows platform. if translated string does not need ampersand can ignore it."
+    },
+    "3031263097": {
+        "translation": "Mantener Slack actualizado"
+    },
+    "3166615289": {
+        "translation": "No mostrármelo de nuevo"
+    },
+    "3173305630": {
+        "translation": "Slack tiene problemas para cargar"
+    },
+    "3371422740": {
+        "translation": "Se cerrará tu sesión de todos tus espacios de trabajo, se restablecerá la aplicación a su estado original y saldrás de ella."
+    },
+    "3389709572": {
+        "translation": "​​​¿Deseas reiniciar Slack ahora para guardar los registros de red?"
+    },
+    "3410109026": {
+        "translation": "Con esto, se guardará un archivo de registro en la ubicación de descargas de Slack. ¿Quieres continuar?"
+    },
+    "3436506706": {
+        "translation": "Este es un archivo {fileExt} y se abrirá en una aplicación diferente. Asegúrate de que este archivo es de confianza antes de abrirlo directamente."
+    },
+    "3470779642": {
+        "translation": "Podemos cargarlo de nuevo para intentar resolver el problema. Si esto no funciona, comunícate con el equipo de Asistencia."
+    },
+    "3500533755": {
+        "translation": "​​Sal de Slack y reinicia."
+    },
+    "3523995200": {
+        "translation": "&Cancelar"
+    },
+    "3526497016": {
+        "translation": "Reiniciar e informar incidencia"
+    },
+    "3549285835": {
+        "translation": "Slack tiene problemas para cargar. Probablemente, esto se deba a una red lenta. Podemos esperar, volver a cargar o reiniciar para intentar resolver el problema. Si esto no funciona, comunícate con el equipo de Asistencia."
+    },
+    "3695522217": {
+        "translation": "Abrir siempre los archivos {fileExt}."
+    },
+    "3805691147": {
+        "translation": "¡Slack se bloqueó!"
+    },
+    "3940220280": {
+        "translation": "Lo sentimos muchísimo, pero hubo un error y hay que reiniciar Slack."
+    },
+    "4106677555": {
+        "translation": "Limpiar caché y cargar de nuevo"
+    }
+}

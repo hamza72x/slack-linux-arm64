@@ -1,0 +1,98 @@
+{
+    "184693378": {
+        "translation": "这是一个 {hostname} 的 {protocol} 链接。如果这是你想要的操作，请单击进入。否则，请确保这是你信任的链接。"
+    },
+    "228491096": {
+        "translation": "关闭窗口"
+    },
+    "254104530": {
+        "translation": "正在加载…"
+    },
+    "412256135": {
+        "translation": "通告和致谢"
+    },
+    "470219197": {
+        "translation": "已复制！"
+    },
+    "599843802": {
+        "translation": "你的日志已保存到<strong>下载<\/strong>文件夹中。",
+        "notes": "Please use <strong> and <\/strong> to denote bolded text (do not translate those directives)."
+    },
+    "676736683": {
+        "translation": "如果 Slack 仍无法连接，请<a id=1>下载你的日志<\/a>并将其发送给我们的<a id=2>客服<\/a>以获取更多帮助。"
+    },
+    "1232096808": {
+        "translation": "如需连接 Slack，你需要输入服务器的用户名和密码 "
+    },
+    "2149550608": {
+        "translation": "Beta"
+    },
+    "2149589909": {
+        "translation": "复制"
+    },
+    "2150053277": {
+        "translation": "保存"
+    },
+    "2179150998": {
+        "translation": "GovSlack 已停用，因此你无法登录至 GovSlack 工作区。"
+    },
+    "2226335023": {
+        "translation": "重置"
+    },
+    "2265579820": {
+        "translation": "打开应用链接"
+    },
+    "2358485522": {
+        "translation": "可以尝试其他操作："
+    },
+    "2362253683": {
+        "translation": "你的日志正在进行中。",
+        "notes": "Net log in progress."
+    },
+    "2380539398": {
+        "translation": "尝试重启 Slack，这也会清除你的缓存。"
+    },
+    "2782703473": {
+        "translation": "GovSlack 已启用，现在你可以登录至 GovSlack 工作区。"
+    },
+    "2805203296": {
+        "translation": "始终打开 {hostname} 的 {protocol} 链接"
+    },
+    "2875270439": {
+        "translation": "如需连接 Slack，你需要输入代理的用户名和密码 "
+    },
+    "2918950471": {
+        "translation": "下载日志"
+    },
+    "2944450756": {
+        "translation": "Windows 应用商店"
+    },
+    "2962926561": {
+        "translation": "您正在使用正式版本。返回您的预定程序…"
+    },
+    "3016177985": {
+        "translation": "停止日志记录",
+        "notes": "Button text for stopping net log."
+    },
+    "3363816917": {
+        "translation": "始终打开来自 {protocolName} 的链接"
+    },
+    "3574460890": {
+        "translation": "打开 {protocol} 链接"
+    },
+    "3671115087": {
+        "translation": "该链接将打开一个应用，而不是网站。如果这是你想要的操作，请单击。否则，请确保这是信任的链接。"
+    },
+    "3731817853": {
+        "translation": "Slack 无法连接"
+    },
+    "4160805346": {
+        "translation": "App Store"
+    },
+    "4210748714": {
+        "translation": "检查你的网络设置或正在使用的任何<a id=1>安全软件<\/a>，确保其允许访问 Slack。"
+    },
+    "4279321952": {
+        "translation": "您已被添加至 {releaseChannel}！🎉在检测到可用更新时，您可在应用内收到 {releaseChannel} 的更新信息。"
+    }
+}

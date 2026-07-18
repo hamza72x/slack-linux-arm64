@@ -1,3 +1,6 @@
 electron-*
 extracted
-slack-4.47.69-arm64
+slack-*-arm64
+rpmbuild-build.log
+.opencode
+

@@ -1,0 +1,3 @@
+(()=>{"use strict";var s={};const e=require("worker_threads");var a;if(!e.parentPort)throw new Error("This script must be run as a worker thread");function p(r,...t){a.postMessage({type:"log",message:r,args:t})}function o(r,...t){e.parentPort.postMessage({type:"error",message:r,args:t})}e.parentPort.on("message",()=>{try{e.parentPort.postMessage({type:"result",value:!1});return}catch(r){o("Failed to check DND status: ",r),e.parentPort.postMessage({type:"result",value:!1})}}),module.exports=s})();
+
+//# sourceMappingURL=call-get-macos-notification-state-entry-point.bundle.js.map

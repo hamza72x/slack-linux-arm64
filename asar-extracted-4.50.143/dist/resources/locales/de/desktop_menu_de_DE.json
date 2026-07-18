@@ -1,0 +1,279 @@
+{
+    "24088086": {
+        "translation": "Installations-ID kopieren"
+    },
+    "79648571": {
+        "translation": "Vollbildmodus beenden"
+    },
+    "83757596": {
+        "translation": "Zum Wörterbuch hinzufügen"
+    },
+    "213310159": {
+        "translation": "&Cache löschen und neu starten"
+    },
+    "228491096": {
+        "translation": "Fenster schließen"
+    },
+    "233958381": {
+        "translation": "Tastaturnavigation"
+    },
+    "248376214": {
+        "translation": "&Startsteuerung"
+    },
+    "290920624": {
+        "translation": "Element untersuchen"
+    },
+    "324526129": {
+        "translation": "Lokale Assets verwenden"
+    },
+    "335279362": {
+        "translation": "Rede"
+    },
+    "463854602": {
+        "translation": "Neu starten und Net-Logs erfassen ..."
+    },
+    "479719096": {
+        "translation": "Nächster Ordner"
+    },
+    "492578761": {
+        "translation": "Unterhaltung"
+    },
+    "508265312": {
+        "translation": "&DevTools ein- und ausschalten"
+    },
+    "614784485": {
+        "translation": "E-Mail-Adresse kopieren"
+    },
+    "642307007": {
+        "translation": "&Vorwärts"
+    },
+    "653789695": {
+        "translation": "Slack neu starten"
+    },
+    "786084958": {
+        "translation": "&Cache löschen und beenden"
+    },
+    "853060286": {
+        "translation": "Minimieren"
+    },
+    "898224708": {
+        "translation": "&Entwickler"
+    },
+    "1214870726": {
+        "translation": "&Menüleiste immer anzeigen"
+    },
+    "1262042250": {
+        "translation": "V&erlauf"
+    },
+    "1302783429": {
+        "translation": "Link kopieren"
+    },
+    "1343450128": {
+        "translation": "Link öffnen"
+    },
+    "1344684856": {
+        "translation": "Cache löschen und beenden"
+    },
+    "1393286243": {
+        "translation": "&Vollbildmodus ein\/aus"
+    },
+    "1448793429": {
+        "translation": "&Herauszoomen"
+    },
+    "1450597088": {
+        "translation": "Einfügen und Stil anpassen"
+    },
+    "1479779558": {
+        "translation": "Hardware-Beschleunigung deaktivieren und neu starten"
+    },
+    "1496618861": {
+        "translation": "&Originalgröße"
+    },
+    "1541986699": {
+        "translation": "Slack &sofort anzeigen"
+    },
+    "1685078332": {
+        "translation": "Neu starten und ausführliche Debug-Protokolle erfassen ..."
+    },
+    "1687268692": {
+        "translation": "Im &Hintergrund lassen"
+    },
+    "1728916720": {
+        "translation": "Bild kopieren"
+    },
+    "1871709694": {
+        "translation": "Alle einblenden"
+    },
+    "1948703567": {
+        "translation": "Neustart zum Anwenden des Updates"
+    },
+    "2005111589": {
+        "translation": "&Slack beenden"
+    },
+    "2023105981": {
+        "translation": "&In anderem Workspace anmelden ..."
+    },
+    "2027485457": {
+        "translation": "&Nach Updates suchen…"
+    },
+    "2120422130": {
+        "translation": "&Persönliche Einstellungen..."
+    },
+    "2147522478": {
+        "translation": "&Gehe zu"
+    },
+    "2147551778": {
+        "translation": "Ausschneiden"
+    },
+    "2149589909": {
+        "translation": "Kopieren"
+    },
+    "2150026782": {
+        "translation": "Wiederherstellen"
+    },
+    "2150124804": {
+        "translation": "Rückgängig"
+    },
+    "2150275059": {
+        "translation": "Zoomen"
+    },
+    "2184640045": {
+        "translation": "&Zurück"
+    },
+    "2184732496": {
+        "translation": "&Bearbeiten"
+    },
+    "2184767170": {
+        "translation": "&Datei"
+    },
+    "2184822919": {
+        "translation": "&Hilfe"
+    },
+    "2185106325": {
+        "translation": "&Beenden"
+    },
+    "2185243627": {
+        "translation": "&Anzeigen"
+    },
+    "2208352209": {
+        "translation": "Alle nach vorn bringen"
+    },
+    "2212687320": {
+        "translation": "Schließen"
+    },
+    "2224369267": {
+        "translation": "Einfügen"
+    },
+    "2447182367": {
+        "translation": "Bild-URL kopieren"
+    },
+    "2472486620": {
+        "translation": "Hauptprozessuntersuchung aktivieren"
+    },
+    "2483404925": {
+        "translation": "Alles auswählen"
+    },
+    "2545826024": {
+        "translation": "&App-Daten zurücksetzen…"
+    },
+    "2684062346": {
+        "translation": "Was gibt's &Neues..."
+    },
+    "2684966484": {
+        "translation": "Einstellungs-Editor öffnen"
+    },
+    "2737665025": {
+        "translation": "Andere verbergen"
+    },
+    "2779400347": {
+        "translation": "Mit Google suchen"
+    },
+    "3001254706": {
+        "translation": "Slack verbergen"
+    },
+    "3065272838": {
+        "translation": "Update wird gesucht"
+    },
+    "3094776382": {
+        "translation": "&Heranzoomen"
+    },
+    "3096388533": {
+        "translation": "Nachverfolgungs-UI anzeigen"
+    },
+    "3096707126": {
+        "translation": "&Protokolle in Datei-Manager anzeigen"
+    },
+    "3192269939": {
+        "translation": "&Problem melden…"
+    },
+    "3303131406": {
+        "translation": "Sprechen beginnen"
+    },
+    "3379982589": {
+        "translation": "Über Slack"
+    },
+    "3446734126": {
+        "translation": "Sprechen beenden"
+    },
+    "3496838401": {
+        "translation": "Hardware-Beschleunigung aktivieren und neu starten"
+    },
+    "3591337086": {
+        "translation": "Services"
+    },
+    "3603967375": {
+        "translation": "Update wird heruntergeladen"
+    },
+    "3615595735": {
+        "translation": "Ein Update ist verfügbar"
+    },
+    "3662858940": {
+        "translation": "Vorheriger Ordner"
+    },
+    "3688565260": {
+        "translation": "&Protokolle in Explorer anzeigen"
+    },
+    "3748068388": {
+        "translation": "&Support-Center öffnen"
+    },
+    "3791924890": {
+        "translation": "&Tastaturkürzel"
+    },
+    "3826983308": {
+        "translation": "Nach „{word}“ suchen",
+        "notes": "Do not translate between {}"
+    },
+    "3916290703": {
+        "translation": "&Beim Anmelden starten"
+    },
+    "3932018612": {
+        "translation": "Hauptfenster anzeigen"
+    },
+    "3957078367": {
+        "translation": "&Neu laden"
+    },
+    "4085024050": {
+        "translation": "Neu laden erzwingen "
+    },
+    "4090050867": {
+        "translation": "&Protokolle in Finder anzeigen"
+    },
+    "4103967670": {
+        "translation": "&Fenster"
+    },
+    "4158251775": {
+        "translation": "Trigger Crash"
+    },
+    "4168076436": {
+        "translation": "Versionshinweise"
+    },
+    "4172720698": {
+        "translation": "Fehlerbehebung"
+    },
+    "4190859723": {
+        "translation": "Löschen"
+    },
+    "4226626769": {
+        "translation": "Verzeichnis der Crash-Dumps öffnen ..."
+    }
+}

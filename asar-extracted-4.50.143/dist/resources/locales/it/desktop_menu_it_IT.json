@@ -1,0 +1,279 @@
+{
+    "24088086": {
+        "translation": "Copia ID di installazione"
+    },
+    "79648571": {
+        "translation": "Disattiva schermo intero"
+    },
+    "83757596": {
+        "translation": "Aggiungi al dizionario"
+    },
+    "213310159": {
+        "translation": "&Cancella cache e riavvia"
+    },
+    "228491096": {
+        "translation": "Chiudi finestra"
+    },
+    "233958381": {
+        "translation": "Navigazione tramite tastiera"
+    },
+    "248376214": {
+        "translation": "&Inizia verifica"
+    },
+    "290920624": {
+        "translation": "Esamina elemento"
+    },
+    "324526129": {
+        "translation": "Utilizza risorse locali"
+    },
+    "335279362": {
+        "translation": "Discorso"
+    },
+    "463854602": {
+        "translation": "Riavvia e raccogli i registri di rete..."
+    },
+    "479719096": {
+        "translation": "Sezione successiva"
+    },
+    "492578761": {
+        "translation": "Conversazione"
+    },
+    "508265312": {
+        "translation": "Attiva\/disattiva &Strumenti di sviluppo"
+    },
+    "614784485": {
+        "translation": "Copia indirizzo e-mail"
+    },
+    "642307007": {
+        "translation": "&Avanti"
+    },
+    "653789695": {
+        "translation": "Riavvia Slack"
+    },
+    "786084958": {
+        "translation": "&Cancella cache ed esci"
+    },
+    "853060286": {
+        "translation": "Riduci a icona"
+    },
+    "898224708": {
+        "translation": "&Sviluppatore"
+    },
+    "1214870726": {
+        "translation": "Mostra sempre la barra del &menu"
+    },
+    "1262042250": {
+        "translation": "Cronologia"
+    },
+    "1302783429": {
+        "translation": "Copia link"
+    },
+    "1343450128": {
+        "translation": "Apri link"
+    },
+    "1344684856": {
+        "translation": "Cancella cache ed esci"
+    },
+    "1393286243": {
+        "translation": "Attiva\/disattiva &schermo intero"
+    },
+    "1448793429": {
+        "translation": "&Riduci"
+    },
+    "1450597088": {
+        "translation": "Incolla e mantieni lo stile"
+    },
+    "1479779558": {
+        "translation": "Disabilita l’accelerazione hardware e riavvia"
+    },
+    "1496618861": {
+        "translation": "&Dimensioni effettive"
+    },
+    "1541986699": {
+        "translation": "Mostra Slack &immediatamente"
+    },
+    "1685078332": {
+        "translation": "Riavvia e raccogli registri di debug dettagliati..."
+    },
+    "1687268692": {
+        "translation": "Mantieni in &background"
+    },
+    "1728916720": {
+        "translation": "Copia immagine"
+    },
+    "1871709694": {
+        "translation": "Mostra tutto"
+    },
+    "1948703567": {
+        "translation": "Riavvia per applicare l’aggiornamento"
+    },
+    "2005111589": {
+        "translation": "&Chiudi Slack"
+    },
+    "2023105981": {
+        "translation": "&Accedi a un’altra area di lavoro..."
+    },
+    "2027485457": {
+        "translation": "&Controlla aggiornamenti..."
+    },
+    "2120422130": {
+        "translation": "&Preferenze"
+    },
+    "2147522478": {
+        "translation": "&Vai"
+    },
+    "2147551778": {
+        "translation": "Taglia"
+    },
+    "2149589909": {
+        "translation": "Copia"
+    },
+    "2150026782": {
+        "translation": "Ripeti"
+    },
+    "2150124804": {
+        "translation": "Annulla"
+    },
+    "2150275059": {
+        "translation": "Zoom"
+    },
+    "2184640045": {
+        "translation": "&Indietro"
+    },
+    "2184732496": {
+        "translation": "&Modifica"
+    },
+    "2184767170": {
+        "translation": "&File"
+    },
+    "2184822919": {
+        "translation": "&Aiuto"
+    },
+    "2185106325": {
+        "translation": "&Chiudi"
+    },
+    "2185243627": {
+        "translation": "&Visualizza"
+    },
+    "2208352209": {
+        "translation": "Porta tutto in primo piano"
+    },
+    "2212687320": {
+        "translation": "Chiudi"
+    },
+    "2224369267": {
+        "translation": "Incolla"
+    },
+    "2447182367": {
+        "translation": "Copia URL immagine"
+    },
+    "2472486620": {
+        "translation": "Abilita controllo processo principale"
+    },
+    "2483404925": {
+        "translation": "Seleziona tutto"
+    },
+    "2545826024": {
+        "translation": "Reimposta i &dati dell’App..."
+    },
+    "2684062346": {
+        "translation": "&Novità..."
+    },
+    "2684966484": {
+        "translation": "Apri Editor impostazioni"
+    },
+    "2737665025": {
+        "translation": "Nascondi altri"
+    },
+    "2779400347": {
+        "translation": "Cerca con Google"
+    },
+    "3001254706": {
+        "translation": "Nascondi Slack"
+    },
+    "3065272838": {
+        "translation": "Verifica aggiornamenti in corso"
+    },
+    "3094776382": {
+        "translation": "&Ingrandisci"
+    },
+    "3096388533": {
+        "translation": "Mostra interfaccia utente tracciamento"
+    },
+    "3096707126": {
+        "translation": "Mostra &registri nel File Manager"
+    },
+    "3192269939": {
+        "translation": "&Segnala problema..."
+    },
+    "3303131406": {
+        "translation": "Inizia a parlare"
+    },
+    "3379982589": {
+        "translation": "Informazioni su Slack"
+    },
+    "3446734126": {
+        "translation": "Smetti di parlare"
+    },
+    "3496838401": {
+        "translation": "Abilita l’accelerazione hardware e riavvia"
+    },
+    "3591337086": {
+        "translation": "Servizi"
+    },
+    "3603967375": {
+        "translation": "Download aggiornamento in corso"
+    },
+    "3615595735": {
+        "translation": "È disponibile un aggiornamento"
+    },
+    "3662858940": {
+        "translation": "Sezione precedente"
+    },
+    "3688565260": {
+        "translation": "Mostra registri in Explorer"
+    },
+    "3748068388": {
+        "translation": "Apri &Centro assistenza"
+    },
+    "3791924890": {
+        "translation": "&Tasti per azioni rapide"
+    },
+    "3826983308": {
+        "translation": "Cerca “{word}”",
+        "notes": "Do not translate between {}"
+    },
+    "3916290703": {
+        "translation": "&Avvia all’accesso"
+    },
+    "3932018612": {
+        "translation": "Mostra Finestra Principale"
+    },
+    "3957078367": {
+        "translation": "&Ricarica"
+    },
+    "4085024050": {
+        "translation": "Ricaricamento forzato "
+    },
+    "4090050867": {
+        "translation": "Mostra &registri in Finder"
+    },
+    "4103967670": {
+        "translation": "&Finestra"
+    },
+    "4158251775": {
+        "translation": "Trigger arresto anomalo"
+    },
+    "4168076436": {
+        "translation": "Note sulla versione"
+    },
+    "4172720698": {
+        "translation": "Risoluzione dei problemi"
+    },
+    "4190859723": {
+        "translation": "Elimina"
+    },
+    "4226626769": {
+        "translation": "Apri directory dump di arresto anomalo"
+    }
+}

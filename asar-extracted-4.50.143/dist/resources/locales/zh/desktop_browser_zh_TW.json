@@ -1,0 +1,35 @@
+{
+    "850658910": {
+        "translation": "無未讀訊息"
+    },
+    "1449357124": {
+        "translation": "你有 {unreadHighlights,plural,=1{# 則通知}other{# 則通知}}"
+    },
+    "1809627791": {
+        "translation": "Slack 已設定於通知區域中持續運作。若要變更，請前往「偏好設定」>「進階」。"
+    },
+    "2227449712": {
+        "translation": "Slack"
+    },
+    "2691950950": {
+        "translation": "你有未讀訊息"
+    },
+    "2817997211": {
+        "translation": "Slack 已設定於每次收到通知時閃爍視窗。若要變更，請前往「偏好設定」>「通知」。"
+    },
+    "3250983946": {
+        "translation": "設定編輯器"
+    },
+    "3379982589": {
+        "translation": "關於 Slack"
+    },
+    "4013057354": {
+        "translation": "選取下載位置"
+    },
+    "4108900219": {
+        "translation": "Slack | 網路記錄"
+    },
+    "4163153666": {
+        "translation": "Slack 為何沒有關閉？"
+    }
+}

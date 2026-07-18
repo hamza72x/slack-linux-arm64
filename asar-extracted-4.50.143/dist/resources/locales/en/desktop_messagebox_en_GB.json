@@ -1,0 +1,144 @@
+{
+    "4945462": {
+        "translation": "Move Slack to Applications?"
+    },
+    "34630045": {
+        "translation": "It looks like Slack is running from the installer file. To help it run properly, we can move it over to your Applications directory."
+    },
+    "46843414": {
+        "translation": "“You’re about to share the file ‘{fileName}’ with others in the channel ‘{channelId}’. Proceed?”"
+    },
+    "136710364": {
+        "translation": "This is likely due to a slow network. We can either wait, reload or restart to attempt to recover. If this doesn’t help, get in touch with support."
+    },
+    "212721705": {
+        "translation": "Don’t ask me again"
+    },
+    "296709561": {
+        "translation": "Reload"
+    },
+    "468287136": {
+        "translation": "Confirm"
+    },
+    "563969361": {
+        "translation": "You’ve got the latest version of Slack; thanks for staying on the ball."
+    },
+    "653789695": {
+        "translation": "Restart Slack"
+    },
+    "867210976": {
+        "translation": "Reset Slack?"
+    },
+    "915428966": {
+        "translation": "Slack stopped responding.\n\nWe can reload to attempt to recover. If this doesn’t help, get in touch with support."
+    },
+    "987847184": {
+        "translation": "Slack stopped responding"
+    },
+    "1114262255": {
+        "translation": "You’re all sorted"
+    },
+    "1294172317": {
+        "translation": "Are you sure?"
+    },
+    "1332677186": {
+        "translation": "Slack can’t open that kind of file."
+    },
+    "1343271314": {
+        "translation": "Open file"
+    },
+    "1360240177": {
+        "translation": "​​To begin recording a net log, Slack must restart. Click on ‘Got it’ and then reopen Slack."
+    },
+    "1522592627": {
+        "translation": "Unfortunately, Slack doesn’t seem to have the right permissions to update itself."
+    },
+    "1567656214": {
+        "translation": "This will sign you out from all of your workspaces, reset the app to its original state and restart it."
+    },
+    "1588876707": {
+        "translation": "If the problem persists, you can report an issue or contact us at feedback@slack.com."
+    },
+    "1612182706": {
+        "translation": "Keep waiting"
+    },
+    "1649803857": {
+        "translation": "Couldn’t update Slack"
+    },
+    "1704747187": {
+        "translation": "Check your internet connection and contact support if this issue persists."
+    },
+    "1793743312": {
+        "translation": "This is a {fileExt} file and will open in {appName}. Make sure that you trust this file before opening it directly."
+    },
+    "1954625384": {
+        "translation": "Restart and collect net log?"
+    },
+    "2171447151": {
+        "translation": "That file no longer exists."
+    },
+    "2227449712": {
+        "translation": "Slack"
+    },
+    "2336911271": {
+        "translation": "The recorded net log will be included with other log files when exported."
+    },
+    "2465692716": {
+        "translation": "&Open file"
+    },
+    "2810434478": {
+        "translation": "In a second or two, Slack is going to ask for permission to update. You need to use an admin account to approve the request."
+    },
+    "2896655900": {
+        "translation": "Restart && report issue",
+        "notes": "double ampersand is for windows platform. if translated string does not need ampersand can ignore it."
+    },
+    "3031263097": {
+        "translation": "Keep Slack up to date"
+    },
+    "3166615289": {
+        "translation": "Don’t show me again"
+    },
+    "3173305630": {
+        "translation": "Slack is having trouble loading"
+    },
+    "3371422740": {
+        "translation": "This will sign you out from all of your workspaces, reset the app to its original state and exit."
+    },
+    "3389709572": {
+        "translation": "​​Restart Slack now to record a net log?"
+    },
+    "3410109026": {
+        "translation": "This will save a log file to Slack’s download location. Continue?"
+    },
+    "3436506706": {
+        "translation": "This is a {fileExt} file and will open in a different application. Make sure that you trust this file before opening it directly."
+    },
+    "3470779642": {
+        "translation": "We can reload to attempt to recover. If this doesn’t help, get in touch with support."
+    },
+    "3500533755": {
+        "translation": "​​Please quit Slack and restart"
+    },
+    "3523995200": {
+        "translation": "&Cancel"
+    },
+    "3526497016": {
+        "translation": "Restart & report issue"
+    },
+    "3549285835": {
+        "translation": "Slack is having trouble loading. This is likely due to a slow network. We can either wait, reload or restart to attempt to recover. If this doesn’t help, get in touch with support."
+    },
+    "3695522217": {
+        "translation": "Always open {fileExt} files."
+    },
+    "3805691147": {
+        "translation": "Slack crashed!"
+    },
+    "3940220280": {
+        "translation": "We’re terribly sorry, but we’ve run into trouble and need to restart Slack."
+    },
+    "4106677555": {
+        "translation": "Clear cache and reload"
+    }
+}

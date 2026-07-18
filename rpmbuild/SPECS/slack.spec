@@ -4,7 +4,7 @@
 %define _build_id_links none
 
 Name:           slack
-Version:        4.47.69
+Version:        4.50.143
 Release:        0.1.el8
 Summary:        Slack Desktop
 License:        MIT
@@ -41,5 +41,8 @@ cp -a %{_sourcedir}/extracted/* %{buildroot}/
 /etc/cron.daily/slack
 
 %changelog
+* Fri Jul 18 2025 Slack Repack <noreply@slack.com> - 4.50.143-0.1.el8
+- Repacked for aarch64/arm64
+
 * Wed Apr 02 2025 Slack Repack <noreply@slack.com> - 4.47.69-0.1.el8
 - Repacked for aarch64/arm64

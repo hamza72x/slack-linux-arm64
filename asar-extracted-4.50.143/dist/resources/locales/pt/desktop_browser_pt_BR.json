@@ -1,0 +1,35 @@
+{
+    "850658910": {
+        "translation": "Nenhuma mensagem não lida"
+    },
+    "1449357124": {
+        "translation": "Você tem {unreadHighlights,plural,=1{# notificação}other{# notificações}}"
+    },
+    "1809627791": {
+        "translation": "O Slack está configurado para ser executado na área de notificações. Para alterar isso, acesse Preferências > Avançado."
+    },
+    "2227449712": {
+        "translation": "Slack"
+    },
+    "2691950950": {
+        "translation": "Você tem mensagens não lidas"
+    },
+    "2817997211": {
+        "translation": "O Slack está configurado para sempre avisar quando houver notificações. Para alterar isso, acesse Preferências > Notificações."
+    },
+    "3250983946": {
+        "translation": "Editor de configurações"
+    },
+    "3379982589": {
+        "translation": "Sobre o Slack"
+    },
+    "4013057354": {
+        "translation": "Selecione um local para download"
+    },
+    "4108900219": {
+        "translation": "Slack | Logs de rede"
+    },
+    "4163153666": {
+        "translation": "Por que o Slack não fechou?"
+    }
+}

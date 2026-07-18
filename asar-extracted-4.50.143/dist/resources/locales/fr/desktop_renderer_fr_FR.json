@@ -1,0 +1,98 @@
+{
+    "184693378": {
+        "translation": "Voici un lien de {protocol} vers {hostname}. C'est ce à quoi vous vous attendez ? Cliquez pour continuer. Dans le cas contraire, vérifiez qu'il s'agit d'un lien auquel vous pouvez faire confiance."
+    },
+    "228491096": {
+        "translation": "Fermer la fenêtre"
+    },
+    "254104530": {
+        "translation": "Chargement…"
+    },
+    "412256135": {
+        "translation": "Avis et remerciements"
+    },
+    "470219197": {
+        "translation": "Copié !"
+    },
+    "599843802": {
+        "translation": "Votre journal a été enregistré dans votre dossier de <strong>téléchargements<\/strong>.",
+        "notes": "Please use <strong> and <\/strong> to denote bolded text (do not translate those directives)."
+    },
+    "676736683": {
+        "translation": "Si la connexion à Slack est toujours impossible, <a id=1>téléchargez vos journaux<\/a> et envoyez-les à notre <a id=2>équipe d’assistance<\/a> pour obtenir plus d’aide."
+    },
+    "1232096808": {
+        "translation": "Pour vous connecter à Slack, vous devez saisir un nom d’utilisateur et un mot de passe pour le serveur "
+    },
+    "2149550608": {
+        "translation": "Version bêta"
+    },
+    "2149589909": {
+        "translation": "Copier"
+    },
+    "2150053277": {
+        "translation": "Enregistrer"
+    },
+    "2179150998": {
+        "translation": "GovSlack a été désactivé, vous ne pourrez donc plus vous connecter aux espace de travail GovSlack."
+    },
+    "2226335023": {
+        "translation": "Réinitialiser"
+    },
+    "2265579820": {
+        "translation": "Ouvrir le lien dans l'application"
+    },
+    "2358485522": {
+        "translation": "Ce que vous pouvez également essayer de faire :"
+    },
+    "2362253683": {
+        "translation": "Votre journal est en cours.",
+        "notes": "Net log in progress."
+    },
+    "2380539398": {
+        "translation": "Relancer Slack, ce qui aura pour effet de vider le cache."
+    },
+    "2782703473": {
+        "translation": "GovSlack a été activé, vous pourrez donc dorénavant vous connecter aux espace de travail GovSlack."
+    },
+    "2805203296": {
+        "translation": "Toujours ouvrir les liens de {protocol} vers {hostname}"
+    },
+    "2875270439": {
+        "translation": "Pour vous connecter à Slack, vous devez saisir un nom d’utilisateur et un mot de passe pour le proxy "
+    },
+    "2918950471": {
+        "translation": "Télécharger les journaux"
+    },
+    "2944450756": {
+        "translation": "Windows Store"
+    },
+    "2962926561": {
+        "translation": "Vous êtes sur la version de production. Retour à votre programme régulier..."
+    },
+    "3016177985": {
+        "translation": "Arrêter l’enregistrement",
+        "notes": "Button text for stopping net log."
+    },
+    "3363816917": {
+        "translation": "Toujours ouvrir les liens de {protocolName}"
+    },
+    "3574460890": {
+        "translation": "Ouvrir le lien de {protocol}"
+    },
+    "3671115087": {
+        "translation": "Ce lien ouvre une application, pas un site web. C'est ce à quoi vous vous attendez ? Cliquez pour continuer. Dans le cas contraire, vérifiez qu'il s'agit d'un lien auquel vous pouvez faire confiance."
+    },
+    "3731817853": {
+        "translation": "Slack ne parvient pas à se connecter"
+    },
+    "4160805346": {
+        "translation": "App Store"
+    },
+    "4210748714": {
+        "translation": "Vérifiez vos paramètres réseau ou tout <a id=1>logiciel de sécurité<\/a> que vous utilisez afin de vous assurer qu’ils autorisent bien l’accès à Slack."
+    },
+    "4279321952": {
+        "translation": "Vous faites maintenant partie de {releaseChannel} ! 🎉 Votre application recevra les mises à jour de {releaseChannel} dès qu’elles seront disponibles."
+    }
+}

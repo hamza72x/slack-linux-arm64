@@ -1,0 +1,144 @@
+{
+    "4945462": {
+        "translation": "¿Mover Slack a aplicaciones?"
+    },
+    "34630045": {
+        "translation": "Parece que Slack se está ejecutando desde el archivo de instalación. Para que funcione correctamente, podemos moverlo a tu directorio de aplicaciones."
+    },
+    "46843414": {
+        "translation": "\"Estás a punto de compartir con otras personas el archivo '{fileName}' en el canal '{channelId}'. ¿Quieres continuar?\""
+    },
+    "136710364": {
+        "translation": "Probablemente se deba a la lentitud de la red. Podemos esperar, volver a cargar o reiniciar para intentar que se recupere. Si no funciona, contacta con el equipo de Ayuda."
+    },
+    "212721705": {
+        "translation": "No preguntar de nuevo"
+    },
+    "296709561": {
+        "translation": "Recargar"
+    },
+    "468287136": {
+        "translation": "Confirmar"
+    },
+    "563969361": {
+        "translation": "Tienes la última versión de Slack; gracias por estar pendiente."
+    },
+    "653789695": {
+        "translation": "Reiniciar Slack"
+    },
+    "867210976": {
+        "translation": "¿Restablecemos Slack?"
+    },
+    "915428966": {
+        "translation": "Slack ha dejado de responder.\n\nPodemos volver a cargar para intentar una recuperación. Si no funciona, contacta con nosotros para que podamos ayudarte."
+    },
+    "987847184": {
+        "translation": "Slack ha dejado de responder"
+    },
+    "1114262255": {
+        "translation": "No te preocupes"
+    },
+    "1294172317": {
+        "translation": "¿Seguro?"
+    },
+    "1332677186": {
+        "translation": "Slack no puede abrir ese tipo de archivo."
+    },
+    "1343271314": {
+        "translation": "Abrir archivo"
+    },
+    "1360240177": {
+        "translation": "​Para comenzar a grabar un netlog, reinicia Slack. Haz clic en Entendido y vuelve a abrir Slack."
+    },
+    "1522592627": {
+        "translation": "Lamentablemente, parece que Slack no tiene los permisos necesarios para actualizarse solo."
+    },
+    "1567656214": {
+        "translation": "Te desconectarás de todos tus espacios de trabajo, restablecerás la app a su estado original y se reiniciará."
+    },
+    "1588876707": {
+        "translation": "Si continúa el problema, informa sobre la incidencia o contacta con nosotros en feedback@slack.com. Recuerda que nuestro equipo de Ayuda te puede asistir en español."
+    },
+    "1612182706": {
+        "translation": "Seguir esperando"
+    },
+    "1649803857": {
+        "translation": "No se puede actualizar Slack"
+    },
+    "1704747187": {
+        "translation": "Comprueba la conexión a internet y contacta con Ayuda si continúa el problema."
+    },
+    "1793743312": {
+        "translation": "Este es un archivo {fileExt} y se abrirá en {appName}. Asegúrate de que este archivo es de confianza antes de abrirlo."
+    },
+    "1954625384": {
+        "translation": "¿Quieres reiniciar y recopilar netlogs?"
+    },
+    "2171447151": {
+        "translation": "Ese archivo ya no existe."
+    },
+    "2227449712": {
+        "translation": "Slack"
+    },
+    "2336911271": {
+        "translation": "Los netlogs grabados se incluirán con otros archivos de registro al exportar."
+    },
+    "2465692716": {
+        "translation": "&Abrir archivo"
+    },
+    "2810434478": {
+        "translation": "En un segundo, Slack va a solicitar permiso para actualizarse. Tendrás que usar una cuenta de administrador para aprobar la solicitud."
+    },
+    "2896655900": {
+        "translation": "Reiniciar e informar de incidencia",
+        "notes": "double ampersand is for windows platform. if translated string does not need ampersand can ignore it."
+    },
+    "3031263097": {
+        "translation": "Mantener Slack actualizado"
+    },
+    "3166615289": {
+        "translation": "No mostrármelo de nuevo"
+    },
+    "3173305630": {
+        "translation": "Slack tiene problemas para cargarse"
+    },
+    "3371422740": {
+        "translation": "Se te desconectará de todos tus espacios de trabajo, se restablecerá la aplicación a su estado original y saldrás de ella."
+    },
+    "3389709572": {
+        "translation": "​​​¿Quieres reiniciar Slack ahora para grabar un netlog?"
+    },
+    "3410109026": {
+        "translation": "Se guardará un archivo de registro en la ubicación de las descargas de Slack. ¿Quieres continuar?"
+    },
+    "3436506706": {
+        "translation": "Este es un archivo {fileExt} y se abrirá en otra aplicación. Asegúrate de que este archivo es de confianza antes de abrirlo."
+    },
+    "3470779642": {
+        "translation": "Podemos volver a cargar para intentar una recuperación. Si no funciona, contacta con nosotros para que podamos ayudarte."
+    },
+    "3500533755": {
+        "translation": "​​Sal de Slack y reinicia"
+    },
+    "3523995200": {
+        "translation": "&Cancelar"
+    },
+    "3526497016": {
+        "translation": "Reiniciar e informar de incidencia"
+    },
+    "3549285835": {
+        "translation": "Slack tiene problemas para cargarse. Probablemente se deba a la lentitud de la red. Podemos esperar, volver a cargar o reiniciar para intentar que se recupere. Si no funciona, contacta con el equipo de Ayuda."
+    },
+    "3695522217": {
+        "translation": "Abrir siempre los archivos {fileExt}."
+    },
+    "3805691147": {
+        "translation": "Slack se ha bloqueado"
+    },
+    "3940220280": {
+        "translation": "Lo sentimos muchísimo, pero se ha producido un error y hay que reiniciar Slack."
+    },
+    "4106677555": {
+        "translation": "Limpiar caché y volver a cargar"
+    }
+}
