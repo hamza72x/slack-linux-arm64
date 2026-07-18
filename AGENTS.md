@@ -2,6 +2,25 @@
 
 You are repacking the official Slack desktop RPM (x86_64) for Linux arm64/aarch64. Slack is an Electron app. The JS application (`app.asar`) is architecture-independent. Only the Electron runtime and native Node modules are architecture-specific.
 
+## Repository structure
+
+Each Slack version gets its own directory. Shared files stay at the root:
+
+```
+{VERSION}/
+  asar-extracted/          # Extracted app.asar (for inspecting native module versions)
+  native-build/            # Build workspace for native modules
+    stubs/                 # Minimal N-API stub source + compiled .node
+    workspace/             # npm workspace (package.json with buildable module versions)
+  slack.spec               # RPM spec file for this version
+  slack-{VERSION}-0.1.el8.aarch64.rpm   # Output: arm64 RPM
+  slack-{VERSION}-0.1.el8.x86_64.rpm    # Input: original x86_64 RPM
+  slack-{VERSION}-arm64.tar.xz          # Output: standalone arm64 archive
+
+AGENTS.md                  # These instructions
+tools/                     # Shared build tools
+```
+
 ## Prerequisites
 
 - Fedora arm64 (or similar) with: `gcc`, `g++`, `make`, `node`, `npm`, `rpmbuild`, `rpm2cpio`, `cpio`, `unzip`
@@ -12,9 +31,11 @@ You are repacking the official Slack desktop RPM (x86_64) for Linux arm64/aarch6
 
 ### 1. Determine versions
 
+Place the new x86_64 RPM file in a new version directory (e.g., `{VERSION}/slack-{VERSION}-0.1.el8.x86_64.rpm`).
+
 Extract the RPM and read `usr/lib/slack/version` to get the **Electron version**. This is critical — you must download the exact matching arm64 Electron release.
 
-Extract `app.asar` with `npx asar extract` and read `node_modules/*/package.json` for each native module to get their **exact versions**.
+Extract `app.asar` with `npx asar extract` into `{VERSION}/asar-extracted/` and read `node_modules/*/package.json` for each native module to get their **exact versions**.
 
 ### 2. Extract the RPM
 
@@ -70,7 +91,7 @@ After building, copy the `.node` file from `node_modules/{pkg}/build/Release/` t
 https://slack-desktop-native-prebuilds.s3.amazonaws.com/{module_name}-v{version}-napi-v{napi_build_version}-linux-arm64.tar.gz
 ```
 
-For example: `slackdesktoputils-v1.18.7-napi-v8-linux-arm64.tar.gz`
+For example: `slackdesktoputils-v1.20.0-napi-v8-linux-arm64.tar.gz`
 
 Extract and copy the `.node` file to `app.asar.unpacked/node_modules/@tinyspeck/slack-desktop-utils/lib/binding/napi-v{N}/`.
 
@@ -101,6 +122,7 @@ Copy this stub to replace:
 
 In `etc/cron.daily/slack`:
 - Change all `DEFAULT_ARCH="x86_64"` to `DEFAULT_ARCH="aarch64"`
+- Set `REPOCONFIG=""` (Slack does not publish arm64 packages on packagecloud, so the repo is useless and causes dnf errors)
 - In `get_lib_dir()`, add `|| [ "$DEFAULT_ARCH" = "aarch64" ]` to the x86_64 branch so aarch64 maps to `lib64`
 
 ### 6. Clean up
@@ -119,11 +141,11 @@ Must produce no output.
 
 ### 8. Create standalone directory
 
-Copy `usr/lib/slack/*` and `usr/share/pixmaps/slack.png` into a standalone directory (e.g., `slack-{VERSION}-arm64/`). Create a `.desktop` file pointing to the `slack` binary and icon.
+Copy `usr/lib/slack/*` and `usr/share/pixmaps/slack.png` into a standalone directory (e.g., `slack-{VERSION}-arm64/`). Create a `.desktop` file pointing to the `slack` binary and icon. Archive it as `{VERSION}/slack-{VERSION}-arm64.tar.xz`.
 
 ### 9. Build RPM
 
-Use this spec template (update Version/Release/changelog):
+Save the spec file as `{VERSION}/slack.spec` (update Version/Release/changelog):
 
 ```spec
 %global __os_install_post %{nil}
@@ -195,6 +217,10 @@ Link the `extracted/` directory into `$RPMBUILD_DIR/SOURCES/extracted` before bu
 
 ## Outputs
 
-You should produce two artifacts:
-1. `slack-{VERSION}-arm64/` — standalone directory, run `./slack` directly
-2. `slack-{VERSION}-0.1.el8.aarch64.rpm` — installable RPM package
+You should produce two artifacts inside the `{VERSION}/` directory:
+1. `{VERSION}/slack-{VERSION}-arm64.tar.xz` — standalone archive, extract and run `./slack` directly
+2. `{VERSION}/slack-{VERSION}-0.1.el8.aarch64.rpm` — installable RPM package
+
+Also create or update `{VERSION}/native-build/` with:
+- `stubs/empty_napi_module.c` and `stubs/empty_module.node` — the stub source and compiled binary
+- `workspace/package.json` — recording the npm package versions used for the build
